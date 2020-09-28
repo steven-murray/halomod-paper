@@ -1,4 +1,4 @@
-\begin{thebibliography}{129}
+\begin{thebibliography}{134}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -277,6 +277,18 @@
   \bibinfo{pages}{103543}.
 \newblock \DOIprefix\doi{10.1103/PhysRevD.96.103543}.
 %Type = Article
+\bibitem[{Child et~al.(2018)Child, Habib, Heitmann, Frontiere, Finkel, Pope and
+  Morozov}]{Child2018}
+\bibinfo{author}{Child, H.L.}, \bibinfo{author}{Habib, S.},
+  \bibinfo{author}{Heitmann, K.}, \bibinfo{author}{Frontiere, N.},
+  \bibinfo{author}{Finkel, H.}, \bibinfo{author}{Pope, A.},
+  \bibinfo{author}{Morozov, V.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Halo {{Profiles}} and the {{Concentration}}-{{Mass
+  Relation}} for a {{$\Lambda$CDM Universe}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{859},
+  \bibinfo{pages}{55}.
+\newblock \DOIprefix\doi{10.3847/1538-4357/aabf95}.
+%Type = Article
 \bibitem[{Cole and Kaiser(1989)}]{Cole1989}
 \bibinfo{author}{Cole, S.}, \bibinfo{author}{Kaiser, N.}, \bibinfo{year}{1989}.
 \newblock \bibinfo{title}{Biased clustering in the cold dark matter cosmogony}.
@@ -389,6 +401,14 @@
   \bibinfo{pages}{168}.
 \newblock \DOIprefix\doi{10.3847/1538-4357/aafad6}.
 %Type = Article
+\bibitem[{Diemer and Kravtsov(2015)}]{Diemer2015}
+\bibinfo{author}{Diemer, B.}, \bibinfo{author}{Kravtsov, A.V.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{A {{Universal Model}} for {{Halo Concentrations}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{799},
+  \bibinfo{pages}{108}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/799/1/108}.
+%Type = Article
 \bibitem[{Diemer et~al.(2013)Diemer, More and Kravtsov}]{Diemer2013}
 \bibinfo{author}{Diemer, B.}, \bibinfo{author}{More, S.},
   \bibinfo{author}{Kravtsov, A.V.}, \bibinfo{year}{2013}.
@@ -418,6 +438,15 @@
 \newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society:
   Letters} \bibinfo{volume}{390}, \bibinfo{pages}{L64--L68}.
 \newblock \DOIprefix\doi{10.1111/j.1745-3933.2008.00537.x}.
+%Type = Article
+\bibitem[{Dutton and Macci{\`o}(2014)}]{Dutton2014}
+\bibinfo{author}{Dutton, A.A.}, \bibinfo{author}{Macci{\`o}, A.V.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Cold dark matter haloes in the {{Planck}} era:
+  Evolution of structural parameters for {{Einasto}} and {{NFW}} profiles}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{441}, \bibinfo{pages}{3359--3374}.
+\newblock \DOIprefix\doi{10.1093/mnras/stu742}.
 %Type = Article
 \bibitem[{Einasto(1965)}]{Einasto1965}
 \bibinfo{author}{Einasto, J.}, \bibinfo{year}{1965}.
@@ -509,6 +538,22 @@
 \newblock \bibinfo{journal}{Publications of the Astronomical Society of Japan}
   \bibinfo{volume}{67}, \bibinfo{pages}{61--61}.
 %Type = Article
+\bibitem[{Ishiyama et~al.(2020)Ishiyama, Prada, Klypin, Sinha, Metcalf, Jullo,
+  Altieri, Cora, Croton, {de la Torre}, {Mill{\'a}n-Calero}, Oogi, Ruedas and
+  {Vega-Mart{\'i}nez}}]{Ishiyama2020}
+\bibinfo{author}{Ishiyama, T.}, \bibinfo{author}{Prada, F.},
+  \bibinfo{author}{Klypin, A.A.}, \bibinfo{author}{Sinha, M.},
+  \bibinfo{author}{Metcalf, R.B.}, \bibinfo{author}{Jullo, E.},
+  \bibinfo{author}{Altieri, B.}, \bibinfo{author}{Cora, S.A.},
+  \bibinfo{author}{Croton, D.}, \bibinfo{author}{{de la Torre}, S.},
+  \bibinfo{author}{{Mill{\'a}n-Calero}, D.E.}, \bibinfo{author}{Oogi, T.},
+  \bibinfo{author}{Ruedas, J.}, \bibinfo{author}{{Vega-Mart{\'i}nez}, C.A.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{The {{Uchuu Simulations}}: {{Data Release}} 1 and
+  {{Dark Matter Halo Concentrations}}}.
+\newblock \bibinfo{journal}{arXiv e-prints} \bibinfo{volume}{2007},
+  \bibinfo{pages}{arXiv:2007.14720}.
+%Type = Article
 \bibitem[{Jenkins et~al.(2001)Jenkins, Frenk, White, Colberg, Cole, Evrard,
   Couchman and Yoshida}]{Jenkins2001}
 \bibinfo{author}{Jenkins, A.}, \bibinfo{author}{Frenk, C.S.},
@@ -578,6 +623,17 @@
 \newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
   \bibinfo{volume}{414}, \bibinfo{pages}{2367--2385}.
 \newblock \DOIprefix\doi{10.1111/j.1365-2966.2011.18556.x}.
+%Type = Article
+\bibitem[{Klypin et~al.(2016)Klypin, Yepes, Gottl{\"o}ber, Prada and
+  He{\ss}}]{Klypin2016}
+\bibinfo{author}{Klypin, A.}, \bibinfo{author}{Yepes, G.},
+  \bibinfo{author}{Gottl{\"o}ber, S.}, \bibinfo{author}{Prada, F.},
+  \bibinfo{author}{He{\ss}, S.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{{{MultiDark}} simulations: The story of dark matter
+  halo concentrations and density profiles}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{457}, \bibinfo{pages}{4340--4359}.
+\newblock \DOIprefix\doi{10.1093/mnras/stw248}.
 %Type = Article
 \bibitem[{Knebe et~al.(2011)Knebe, Knollmann, Muldrew, Pearce, {Aragon-Calvo},
   Ascasibar, Behroozi, Ceverino, Colombi, Diemand, Dolag, Falck, Fasel,
