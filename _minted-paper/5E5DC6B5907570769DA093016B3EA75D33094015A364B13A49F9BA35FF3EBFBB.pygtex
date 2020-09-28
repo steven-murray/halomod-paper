@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k+kn}{import} \PYG{n+nn}{halomod} \PYG{k}{as} \PYG{n+nn}{hm}
+\PYG{n}{tr} \PYG{o}{=} \PYG{n}{hm}\PYG{o}{.}\PYG{n}{TracerHaloModel}\PYG{p}{()}
+\end{Verbatim}

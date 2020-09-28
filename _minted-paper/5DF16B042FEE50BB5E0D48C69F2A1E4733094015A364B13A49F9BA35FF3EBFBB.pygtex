@@ -1,0 +1,35 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{def} \PYG{n+nf}{log\PYGZus{}prob}\PYG{p}{(}
+    \PYG{n}{param\PYGZus{}values}\PYG{p}{:} \PYG{n}{np}\PYG{o}{.}\PYG{n}{ndarray}\PYG{p}{,}
+    \PYG{n}{param\PYGZus{}names}\PYG{p}{:} \PYG{n}{List}\PYG{p}{[}\PYG{n+nb}{str}\PYG{p}{],}
+    \PYG{n}{data}\PYG{p}{:} \PYG{n}{np}\PYG{o}{.}\PYG{n}{ndarray}\PYG{p}{,}
+    \PYG{n}{model}\PYG{p}{:} \PYG{n}{TracerHaloModel}\PYG{p}{,}
+    \PYG{n}{derived}\PYG{p}{:} \PYG{n}{Optional}\PYG{p}{[}\PYG{n}{Tuple}\PYG{p}{[}\PYG{n+nb}{str}\PYG{p}{]]}\PYG{o}{=}\PYG{p}{()}
+\PYG{p}{):}
+    \PYG{c+c1}{\PYGZsh{} Pack parameters into a dict}
+    \PYG{n}{params} \PYG{o}{=} \PYG{n+nb}{dict}\PYG{p}{(}\PYG{n+nb}{zip}\PYG{p}{(}\PYG{n}{param\PYGZus{}names}\PYG{p}{,} \PYG{n}{param\PYGZus{}values}\PYG{p}{))}
+
+    \PYG{c+c1}{\PYGZsh{} Allow for simple bounded flat priors.}
+    \PYG{n}{bounds} \PYG{o}{=} \PYG{n}{bounds} \PYG{o+ow}{or} \PYG{p}{\PYGZob{}\PYGZcb{}}
+    \PYG{k}{for} \PYG{n}{key}\PYG{p}{,} \PYG{n}{val} \PYG{o+ow}{in} \PYG{n}{params}\PYG{o}{.}\PYG{n}{items}\PYG{p}{():}
+        \PYG{n}{bound} \PYG{o}{=} \PYG{n}{bounds}\PYG{o}{.}\PYG{n}{get}\PYG{p}{(}\PYG{n}{key}\PYG{p}{,} \PYG{p}{(}\PYG{o}{\PYGZhy{}}\PYG{n}{np}\PYG{o}{.}\PYG{n}{inf}\PYG{p}{,} \PYG{n}{np}\PYG{o}{.}\PYG{n}{inf}\PYG{p}{))}
+        \PYG{k}{if} \PYG{o+ow}{not} \PYG{n}{bound}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]} \PYG{o}{\PYGZlt{}} \PYG{n}{val} \PYG{o}{\PYGZlt{}} \PYG{n}{bound}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]:}
+            \PYG{k}{return} \PYG{o}{\PYGZhy{}}\PYG{n}{np}\PYG{o}{.}\PYG{n}{inf}\PYG{p}{,} \PYG{p}{[]}
+
+    \PYG{c+c1}{\PYGZsh{} Update model with all fitting parameters}
+    \PYG{n}{params} \PYG{o}{=} \PYG{n}{flat\PYGZus{}to\PYGZus{}nested\PYGZus{}dict}\PYG{p}{(}\PYG{n}{params}\PYG{p}{)}
+    \PYG{n}{model}\PYG{o}{.}\PYG{n}{update}\PYG{p}{(}\PYG{o}{**}\PYG{n}{params}\PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} Get arbitrary derived data}
+    \PYG{n}{derived} \PYG{o}{=} \PYG{p}{[}\PYG{n+nb}{getattr}\PYG{p}{(}\PYG{n}{model}\PYG{p}{,} \PYG{n}{d}\PYG{p}{)} \PYG{k}{for} \PYG{n}{d} \PYG{o+ow}{in} \PYG{n}{derived}\PYG{p}{]}
+
+    \PYG{c+c1}{\PYGZsh{} Calculate chi\PYGZca{}2 likelihood}
+    \PYG{n}{logl} \PYG{o}{=} \PYG{n}{chi\PYGZus{}square}\PYG{p}{(}
+        \PYG{n}{model}\PYG{o}{=}\PYG{n}{model}\PYG{o}{.}\PYG{n}{corr\PYGZus{}auto\PYGZus{}tracer}\PYG{p}{,}
+        \PYG{n}{data}\PYG{o}{=}\PYG{n}{data}\PYG{p}{,}
+        \PYG{n}{sigma}\PYG{o}{=}\PYG{l+m+mf}{0.2} \PYG{o}{*} \PYG{n}{np}\PYG{o}{.}\PYG{n}{abs}\PYG{p}{(}\PYG{n}{model}\PYG{o}{.}\PYG{n}{corr\PYGZus{}auto\PYGZus{}tracer}\PYG{p}{)}
+    \PYG{p}{)}
+
+    \PYG{c+c1}{\PYGZsh{} Return derived to make emcee \PYGZdq{}blobs\PYGZdq{}}
+    \PYG{k}{return} \PYG{n}{logl}\PYG{p}{,} \PYG{n}{derived}
+\end{Verbatim}

@@ -1,0 +1,28 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{sampler} \PYG{o}{=} \PYG{n}{emcee}\PYG{o}{.}\PYG{n}{EnsembleSampler}\PYG{p}{(}
+    \PYG{n}{nwalkers} \PYG{o}{=} \PYG{l+m+mi}{100}\PYG{p}{,}
+    \PYG{n}{ndim} \PYG{o}{=} \PYG{l+m+mi}{3}\PYG{p}{,}
+    \PYG{n}{log\PYGZus{}prob\PYGZus{}fn} \PYG{o}{=} \PYG{n}{log\PYGZus{}prob}\PYG{p}{,}
+    \PYG{n}{kwargs} \PYG{o}{=} \PYG{p}{\PYGZob{}}
+        \PYG{l+s+s1}{\PYGZsq{}param\PYGZus{}names\PYGZsq{}}\PYG{p}{:} \PYG{p}{[}
+            \PYG{l+s+s1}{\PYGZsq{}hod\PYGZus{}params.M\PYGZus{}min\PYGZsq{}}\PYG{p}{,}
+            \PYG{l+s+s1}{\PYGZsq{}hod\PYGZus{}params.M\PYGZus{}1\PYGZsq{}}\PYG{p}{,}
+            \PYG{l+s+s1}{\PYGZsq{}hod\PYGZus{}params.alpha\PYGZsq{}}
+        \PYG{p}{],}
+        \PYG{l+s+s1}{\PYGZsq{}data\PYGZsq{}}\PYG{p}{:} \PYG{p}{(}\PYG{n}{mock\PYGZus{}data}\PYG{p}{,} \PYG{n}{mock\PYGZus{}ngal}\PYG{p}{),}
+        \PYG{l+s+s1}{\PYGZsq{}model\PYGZsq{}}\PYG{p}{:} \PYG{n}{model}\PYG{p}{,}
+        \PYG{l+s+s1}{\PYGZsq{}derived\PYGZsq{}}\PYG{p}{:} \PYG{p}{[}
+            \PYG{l+s+s1}{\PYGZsq{}satellite\PYGZus{}fraction\PYGZsq{}}\PYG{p}{,}
+            \PYG{l+s+s1}{\PYGZsq{}mean\PYGZus{}tracer\PYGZus{}den\PYGZsq{}}\PYG{p}{,}
+            \PYG{l+s+s1}{\PYGZsq{}bias\PYGZus{}effective\PYGZus{}tracer\PYGZsq{}}\PYG{p}{,}
+            \PYG{l+s+s1}{\PYGZsq{}corr\PYGZus{}auto\PYGZus{}tracer\PYGZsq{}}
+        \PYG{p}{],}
+    \PYG{p}{\PYGZcb{},}
+    \PYG{n}{blobs\PYGZus{}dtype}\PYG{o}{=}\PYG{p}{[}
+        \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}sat\PYGZus{}frac\PYGZdq{}}\PYG{p}{,} \PYG{n+nb}{float}\PYG{p}{),}
+        \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}tracer\PYGZus{}den\PYGZdq{}}\PYG{p}{,} \PYG{n+nb}{float}\PYG{p}{),}
+        \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}bias\PYGZus{}effective\PYGZus{}tracer\PYGZdq{}}\PYG{p}{,} \PYG{n+nb}{float}\PYG{p}{),}
+        \PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}corr\PYGZus{}auto\PYGZus{}tracer\PYGZdq{}}\PYG{p}{,} \PYG{p}{(}\PYG{n+nb}{float}\PYG{p}{,} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{mock\PYGZus{}data}\PYG{p}{)))}
+    \PYG{p}{]}
+\PYG{p}{)}
+\end{Verbatim}

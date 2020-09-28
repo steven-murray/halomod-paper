@@ -1,0 +1,1476 @@
+\begin{thebibliography}{129}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{{Astropy Collaboration} et~al.(2018){Astropy Collaboration},
+  {Price-Whelan}, Sip{\H o}cz, G{\"u}nther, Lim, Crawford, Conseil, Shupe,
+  Craig, Dencheva, Ginsburg, VanderPlas, Bradley, {P{\'e}rez-Su{\'a}rez}, {de
+  Val-Borro}, Aldcroft, Cruz, Robitaille, Tollerud, Ardelean, Babej, Bach,
+  Bachetti, Bakanov, Bamford, Barentsen, Barmby, Baumbach, Berry, Biscani,
+  Boquien, Bostroem, Bouma, Brammer, Bray, Breytenbach, Buddelmeijer, Burke,
+  Calderone, Cano~Rodr{\'i}guez, Cara, Cardoso, Cheedella, Copin, Corrales,
+  Crichton, D'Avella, Deil, Depagne, Dietrich, Donath, Droettboom, Earl, Erben,
+  Fabbro, Ferreira, Finethy, Fox, Garrison, Gibbons, Goldstein, Gommers, Greco,
+  Greenfield, Groener, Grollier, Hagen, Hirst, Homeier, Horton, Hosseinzadeh,
+  Hu, Hunkeler, Ivezi{\'c}, Jain, Jenness, Kanarek, Kendrew, Kern, Kerzendorf,
+  Khvalko, King, Kirkby, Kulkarni, Kumar, Lee, Lenz, Littlefair, Ma, Macleod,
+  Mastropietro, McCully, Montagnac, Morris, Mueller, Mumford, Muna, Murphy,
+  Nelson, Nguyen, Ninan, N{\"o}the, Ogaz, Oh, Parejko, Parley, Pascual, Patil,
+  Patil, Plunkett, Prochaska, Rastogi, Reddy~Janga, Sabater, Sakurikar,
+  Seifert, Sherbert, {Sherwood-Taylor}, Shih, Sick, Silbiger, Singanamalla,
+  Singer, Sladen, Sooley, Sornarajah, Streicher, Teuben, Thomas, Tremblay,
+  Turner, Terr{\'o}n, {van Kerkwijk}, {de la Vega}, Watkins, Weaver, Whitmore,
+  Woillez, Zabalza and {Astropy Contributors}}]{AstropyCollaboration2018}
+\bibinfo{author}{{Astropy Collaboration}}, \bibinfo{author}{{Price-Whelan},
+  A.M.}, \bibinfo{author}{Sip{\H o}cz, B.M.}, \bibinfo{author}{G{\"u}nther,
+  H.M.}, \bibinfo{author}{Lim, P.L.}, \bibinfo{author}{Crawford, S.M.},
+  \bibinfo{author}{Conseil, S.}, \bibinfo{author}{Shupe, D.L.},
+  \bibinfo{author}{Craig, M.W.}, \bibinfo{author}{Dencheva, N.},
+  \bibinfo{author}{Ginsburg, A.}, \bibinfo{author}{VanderPlas, J.T.},
+  \bibinfo{author}{Bradley, L.D.}, \bibinfo{author}{{P{\'e}rez-Su{\'a}rez},
+  D.}, \bibinfo{author}{{de Val-Borro}, M.}, \bibinfo{author}{Aldcroft, T.L.},
+  \bibinfo{author}{Cruz, K.L.}, \bibinfo{author}{Robitaille, T.P.},
+  \bibinfo{author}{Tollerud, E.J.}, \bibinfo{author}{Ardelean, C.},
+  \bibinfo{author}{Babej, T.}, \bibinfo{author}{Bach, Y.P.},
+  \bibinfo{author}{Bachetti, M.}, \bibinfo{author}{Bakanov, A.V.},
+  \bibinfo{author}{Bamford, S.P.}, \bibinfo{author}{Barentsen, G.},
+  \bibinfo{author}{Barmby, P.}, \bibinfo{author}{Baumbach, A.},
+  \bibinfo{author}{Berry, K.L.}, \bibinfo{author}{Biscani, F.},
+  \bibinfo{author}{Boquien, M.}, \bibinfo{author}{Bostroem, K.A.},
+  \bibinfo{author}{Bouma, L.G.}, \bibinfo{author}{Brammer, G.B.},
+  \bibinfo{author}{Bray, E.M.}, \bibinfo{author}{Breytenbach, H.},
+  \bibinfo{author}{Buddelmeijer, H.}, \bibinfo{author}{Burke, D.J.},
+  \bibinfo{author}{Calderone, G.}, \bibinfo{author}{Cano~Rodr{\'i}guez, J.L.},
+  \bibinfo{author}{Cara, M.}, \bibinfo{author}{Cardoso, J.V.M.},
+  \bibinfo{author}{Cheedella, S.}, \bibinfo{author}{Copin, Y.},
+  \bibinfo{author}{Corrales, L.}, \bibinfo{author}{Crichton, D.},
+  \bibinfo{author}{D'Avella, D.}, \bibinfo{author}{Deil, C.},
+  \bibinfo{author}{Depagne, {\'E}.}, \bibinfo{author}{Dietrich, J.P.},
+  \bibinfo{author}{Donath, A.}, \bibinfo{author}{Droettboom, M.},
+  \bibinfo{author}{Earl, N.}, \bibinfo{author}{Erben, T.},
+  \bibinfo{author}{Fabbro, S.}, \bibinfo{author}{Ferreira, L.A.},
+  \bibinfo{author}{Finethy, T.}, \bibinfo{author}{Fox, R.T.},
+  \bibinfo{author}{Garrison, L.H.}, \bibinfo{author}{Gibbons, S.L.J.},
+  \bibinfo{author}{Goldstein, D.A.}, \bibinfo{author}{Gommers, R.},
+  \bibinfo{author}{Greco, J.P.}, \bibinfo{author}{Greenfield, P.},
+  \bibinfo{author}{Groener, A.M.}, \bibinfo{author}{Grollier, F.},
+  \bibinfo{author}{Hagen, A.}, \bibinfo{author}{Hirst, P.},
+  \bibinfo{author}{Homeier, D.}, \bibinfo{author}{Horton, A.J.},
+  \bibinfo{author}{Hosseinzadeh, G.}, \bibinfo{author}{Hu, L.},
+  \bibinfo{author}{Hunkeler, J.S.}, \bibinfo{author}{Ivezi{\'c}, {\v Z}.},
+  \bibinfo{author}{Jain, A.}, \bibinfo{author}{Jenness, T.},
+  \bibinfo{author}{Kanarek, G.}, \bibinfo{author}{Kendrew, S.},
+  \bibinfo{author}{Kern, N.S.}, \bibinfo{author}{Kerzendorf, W.E.},
+  \bibinfo{author}{Khvalko, A.}, \bibinfo{author}{King, J.},
+  \bibinfo{author}{Kirkby, D.}, \bibinfo{author}{Kulkarni, A.M.},
+  \bibinfo{author}{Kumar, A.}, \bibinfo{author}{Lee, A.},
+  \bibinfo{author}{Lenz, D.}, \bibinfo{author}{Littlefair, S.P.},
+  \bibinfo{author}{Ma, Z.}, \bibinfo{author}{Macleod, D.M.},
+  \bibinfo{author}{Mastropietro, M.}, \bibinfo{author}{McCully, C.},
+  \bibinfo{author}{Montagnac, S.}, \bibinfo{author}{Morris, B.M.},
+  \bibinfo{author}{Mueller, M.}, \bibinfo{author}{Mumford, S.J.},
+  \bibinfo{author}{Muna, D.}, \bibinfo{author}{Murphy, N.A.},
+  \bibinfo{author}{Nelson, S.}, \bibinfo{author}{Nguyen, G.H.},
+  \bibinfo{author}{Ninan, J.P.}, \bibinfo{author}{N{\"o}the, M.},
+  \bibinfo{author}{Ogaz, S.}, \bibinfo{author}{Oh, S.},
+  \bibinfo{author}{Parejko, J.K.}, \bibinfo{author}{Parley, N.},
+  \bibinfo{author}{Pascual, S.}, \bibinfo{author}{Patil, R.},
+  \bibinfo{author}{Patil, A.A.}, \bibinfo{author}{Plunkett, A.L.},
+  \bibinfo{author}{Prochaska, J.X.}, \bibinfo{author}{Rastogi, T.},
+  \bibinfo{author}{Reddy~Janga, V.}, \bibinfo{author}{Sabater, J.},
+  \bibinfo{author}{Sakurikar, P.}, \bibinfo{author}{Seifert, M.},
+  \bibinfo{author}{Sherbert, L.E.}, \bibinfo{author}{{Sherwood-Taylor}, H.},
+  \bibinfo{author}{Shih, A.Y.}, \bibinfo{author}{Sick, J.},
+  \bibinfo{author}{Silbiger, M.T.}, \bibinfo{author}{Singanamalla, S.},
+  \bibinfo{author}{Singer, L.P.}, \bibinfo{author}{Sladen, P.H.},
+  \bibinfo{author}{Sooley, K.A.}, \bibinfo{author}{Sornarajah, S.},
+  \bibinfo{author}{Streicher, O.}, \bibinfo{author}{Teuben, P.},
+  \bibinfo{author}{Thomas, S.W.}, \bibinfo{author}{Tremblay, G.R.},
+  \bibinfo{author}{Turner, J.E.H.}, \bibinfo{author}{Terr{\'o}n, V.},
+  \bibinfo{author}{{van Kerkwijk}, M.H.}, \bibinfo{author}{{de la Vega}, A.},
+  \bibinfo{author}{Watkins, L.L.}, \bibinfo{author}{Weaver, B.A.},
+  \bibinfo{author}{Whitmore, J.B.}, \bibinfo{author}{Woillez, J.},
+  \bibinfo{author}{Zabalza, V.}, \bibinfo{author}{{Astropy Contributors}},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{The {{Astropy Project}}: {{Building}} an
+  {{Open}}-science {{Project}} and {{Status}} of the v2.0 {{Core Package}}}.
+\newblock \bibinfo{journal}{The Astronomical Journal} \bibinfo{volume}{156},
+  \bibinfo{pages}{123}.
+\newblock \DOIprefix\doi{10.3847/1538-3881/aabc4f}.
+%Type = Article
+\bibitem[{Bardeen et~al.(1986)Bardeen, Bond, Kaiser and Szalay}]{Bardeen1986}
+\bibinfo{author}{Bardeen, J.M.}, \bibinfo{author}{Bond, J.R.},
+  \bibinfo{author}{Kaiser, N.}, \bibinfo{author}{Szalay, A.S.},
+  \bibinfo{year}{1986}.
+\newblock \bibinfo{title}{The statistics of peaks of {{Gaussian}} random
+  fields}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{304},
+  \bibinfo{pages}{15--15}.
+\newblock \DOIprefix\doi{10.1086/164143}.
+%Type = Article
+\bibitem[{Behroozi et~al.(2013)Behroozi, Wechsler and Conroy}]{Behroozi2013a}
+\bibinfo{author}{Behroozi, P.S.}, \bibinfo{author}{Wechsler, R.H.},
+  \bibinfo{author}{Conroy, C.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{{THE AVERAGE STAR FORMATION HISTORIES OF GALAXIES IN
+  DARK MATTER HALOS FROM}} z = 0-8}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{770},
+  \bibinfo{pages}{57--57}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/770/1/57}.
+%Type = Article
+\bibitem[{Benson et~al.(2012)Benson, Farahi, Cole, a.~Moustakas, Jenkins,
+  Lovell, Kennedy, Helly and Frenk}]{Benson2012}
+\bibinfo{author}{Benson, A.J.}, \bibinfo{author}{Farahi, a.},
+  \bibinfo{author}{Cole, S.}, \bibinfo{author}{a.~Moustakas, L.},
+  \bibinfo{author}{Jenkins, a.}, \bibinfo{author}{Lovell, M.},
+  \bibinfo{author}{Kennedy, R.}, \bibinfo{author}{Helly, J.},
+  \bibinfo{author}{Frenk, C.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Dark matter halo merger histories beyond cold dark
+  matter - {{I}}. {{Methods}} and application to warm dark matter}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{428}, \bibinfo{pages}{1774--1789}.
+\newblock \DOIprefix\doi{10.1093/mnras/sts159}.
+%Type = Article
+\bibitem[{Berlind et~al.(2003)Berlind, Weinberg, Benson, Baugh, Cole, Frenk,
+  Jenkins, Katz and Lacey}]{Berlind2003}
+\bibinfo{author}{Berlind, A.A.}, \bibinfo{author}{Weinberg, D.H.},
+  \bibinfo{author}{Benson, A.J.}, \bibinfo{author}{Baugh, C.M.},
+  \bibinfo{author}{Cole, S.}, \bibinfo{author}{Frenk, C.S.},
+  \bibinfo{author}{Jenkins, A.}, \bibinfo{author}{Katz, N.},
+  \bibinfo{author}{Lacey, C.G.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{The {{Halo Occupation Distribution And The Physics}}
+  of {{Galaxy Formation}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{593},
+  \bibinfo{pages}{1--25}.
+%Type = Article
+\bibitem[{Beutler et~al.(2013)Beutler, Blake, Colless, Jones, {Staveley-Smith},
+  Campbell, Parker, Saunders and Watson}]{Beutler2013}
+\bibinfo{author}{Beutler, F.}, \bibinfo{author}{Blake, C.},
+  \bibinfo{author}{Colless, M.}, \bibinfo{author}{Jones, D.H.},
+  \bibinfo{author}{{Staveley-Smith}, L.}, \bibinfo{author}{Campbell, L.A.},
+  \bibinfo{author}{Parker, Q.}, \bibinfo{author}{Saunders, W.},
+  \bibinfo{author}{Watson, F.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The {{6dF Galaxy Survey}}: Dependence of halo
+  occupation on stellar mass}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{429}, \bibinfo{pages}{3604--3618}.
+\newblock \DOIprefix\doi{10.1093/mnras/sts637}.
+%Type = Article
+\bibitem[{Bhattacharya et~al.(2013)Bhattacharya, Habib, Heitmann and
+  Vikhlinin}]{Bhattacharya2013}
+\bibinfo{author}{Bhattacharya, S.}, \bibinfo{author}{Habib, S.},
+  \bibinfo{author}{Heitmann, K.}, \bibinfo{author}{Vikhlinin, A.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Dark {{Matter Halo Profiles}} of {{Massive
+  Clusters}}: {{Theory}} versus {{Observations}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{766},
+  \bibinfo{pages}{32}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/766/1/32}.
+%Type = Article
+\bibitem[{Bhattacharya et~al.(2011)Bhattacharya, Heitmann, White, Luki{\'c},
+  Wagner and Habib}]{Bhattacharya2011}
+\bibinfo{author}{Bhattacharya, S.}, \bibinfo{author}{Heitmann, K.},
+  \bibinfo{author}{White, M.}, \bibinfo{author}{Luki{\'c}, Z.},
+  \bibinfo{author}{Wagner, C.}, \bibinfo{author}{Habib, S.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{{MASS FUNCTION PREDICTIONS BEYOND $\Lambda$CDM}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{732},
+  \bibinfo{pages}{122--122}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/732/2/122}.
+%Type = Article
+\bibitem[{Blake et~al.(2008)Blake, Collister and Lahav}]{Blake2008}
+\bibinfo{author}{Blake, C.}, \bibinfo{author}{Collister, A.},
+  \bibinfo{author}{Lahav, O.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Halo-model signatures from 380 000 {{Sloan Digital
+  Sky Survey}} luminous red galaxies with photometric redshifts}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{385}, \bibinfo{pages}{1257--1269}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2007.11925.x}.
+%Type = Article
+\bibitem[{Blas et~al.(2011)Blas, Lesgourgues and Tram}]{Blas2011}
+\bibinfo{author}{Blas, D.}, \bibinfo{author}{Lesgourgues, J.},
+  \bibinfo{author}{Tram, T.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The {{Cosmic Linear Anisotropy Solving System}}
+  ({{CLASS}}). {{Part II}}: {{Approximation}} schemes}.
+\newblock \bibinfo{journal}{Journal of Cosmology and Astroparticle Physics}
+  \bibinfo{volume}{2011}, \bibinfo{pages}{034--034}.
+\newblock \DOIprefix\doi{10.1088/1475-7516/2011/07/034}.
+%Type = Article
+\bibitem[{Bond et~al.(1991)Bond, Cole, Efstathiou and Kaiser}]{Bond1991}
+\bibinfo{author}{Bond, J.R.}, \bibinfo{author}{Cole, S.},
+  \bibinfo{author}{Efstathiou, G.}, \bibinfo{author}{Kaiser, N.},
+  \bibinfo{year}{1991}.
+\newblock \bibinfo{title}{Excursion set mass functions for hierarchical
+  {{Gaussian}} fluctuations}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{379},
+  \bibinfo{pages}{440--460}.
+\newblock \DOIprefix\doi{10.1086/170520}.
+%Type = Article
+\bibitem[{Bond and Efstathiou(1984)}]{Bond1984}
+\bibinfo{author}{Bond, J.R.}, \bibinfo{author}{Efstathiou, G.},
+  \bibinfo{year}{1984}.
+\newblock \bibinfo{title}{Cosmic background radiation anisotropies in universes
+  dominated by nonbaryonic dark matter}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{285},
+  \bibinfo{pages}{L45--L45}.
+\newblock \DOIprefix\doi{10.1086/184362}.
+%Type = Article
+\bibitem[{Bryan and Norman(1998)}]{Bryan1998}
+\bibinfo{author}{Bryan, G.L.}, \bibinfo{author}{Norman, M.L.},
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Statistical {{Properties}} of {{X}}-{{Ray Clusters}}:
+  {{Analytic}} and {{Numerical Comparisons}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{495},
+  \bibinfo{pages}{80--99}.
+\newblock \DOIprefix\doi{10.1086/305262}.
+%Type = Article
+\bibitem[{Bullock(2001)}]{Bullock2001a}
+\bibinfo{author}{Bullock, J.S.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Shapes of dark matter halos}.
+\newblock \bibinfo{journal}{Arxiv e-prints} .
+%Type = Article
+\bibitem[{Bullock et~al.(2001)Bullock, Kolatt, Sigad, Somerville, Kravtsov,
+  a.~Klypin, Primack and Dekel}]{Bullock2001}
+\bibinfo{author}{Bullock, J.S.}, \bibinfo{author}{Kolatt, T.S.},
+  \bibinfo{author}{Sigad, Y.}, \bibinfo{author}{Somerville, R.S.},
+  \bibinfo{author}{Kravtsov, a.V.}, \bibinfo{author}{a.~Klypin, a.},
+  \bibinfo{author}{Primack, J.R.}, \bibinfo{author}{Dekel, A.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Profiles of dark haloes: Evolution, scatter and
+  environment}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{321}, \bibinfo{pages}{559--575}.
+\newblock \DOIprefix\doi{10.1046/j.1365-8711.2001.04068.x}.
+%Type = Article
+\bibitem[{Bullock et~al.(2002)Bullock, Wechsler and Somerville}]{Bullock2002}
+\bibinfo{author}{Bullock, J.S.}, \bibinfo{author}{Wechsler, R.H.},
+  \bibinfo{author}{Somerville, R.S.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Galaxy halo occupation at high redshift}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{329}, \bibinfo{pages}{246--256}.
+%Type = Article
+\bibitem[{Carretero et~al.(2015)Carretero, Castander, Gazta{\~n}aga, Crocce and
+  Fosalba}]{Carretero2015}
+\bibinfo{author}{Carretero, J.}, \bibinfo{author}{Castander, F.J.},
+  \bibinfo{author}{Gazta{\~n}aga, E.}, \bibinfo{author}{Crocce, M.},
+  \bibinfo{author}{Fosalba, P.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{An algorithm to build mock galaxy catalogues using
+  {{MICE}} simulations}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{447}, \bibinfo{pages}{646--670}.
+\newblock \DOIprefix\doi{10.1093/mnras/stu2402}.
+%Type = Article
+\bibitem[{Chan et~al.(2017)Chan, Sheth and Scoccimarro}]{Chan2017}
+\bibinfo{author}{Chan, K.C.}, \bibinfo{author}{Sheth, R.K.},
+  \bibinfo{author}{Scoccimarro, R.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Effective window function for {{Lagrangian}} halos}.
+\newblock \bibinfo{journal}{Physical Review D} \bibinfo{volume}{96},
+  \bibinfo{pages}{103543}.
+\newblock \DOIprefix\doi{10.1103/PhysRevD.96.103543}.
+%Type = Article
+\bibitem[{Cole and Kaiser(1989)}]{Cole1989}
+\bibinfo{author}{Cole, S.}, \bibinfo{author}{Kaiser, N.}, \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{Biased clustering in the cold dark matter cosmogony}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{237}, \bibinfo{pages}{1127--1127}.
+%Type = Article
+\bibitem[{Comparat et~al.(2017)Comparat, Prada, Yepes and
+  Klypin}]{Comparat2017}
+\bibinfo{author}{Comparat, J.}, \bibinfo{author}{Prada, F.},
+  \bibinfo{author}{Yepes, G.}, \bibinfo{author}{Klypin, A.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Accurate mass and velocity functions of dark matter
+  haloes}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{469}, \bibinfo{pages}{4157--4174}.
+\newblock \DOIprefix\doi{10.1093/mnras/stx1183}.
+%Type = Article
+\bibitem[{Contreras et~al.(2013)Contreras, Baugh, Norberg and
+  Padilla}]{Contreras2013}
+\bibinfo{author}{Contreras, S.}, \bibinfo{author}{Baugh, C.M.},
+  \bibinfo{author}{Norberg, P.}, \bibinfo{author}{Padilla, N.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{How robust are predictions of galaxy clustering?}
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{432}, \bibinfo{pages}{2717--2730}.
+\newblock \DOIprefix\doi{10.1093/mnras/stt629}.
+%Type = Article
+\bibitem[{Cooray and Sheth(2002)}]{Cooray2002}
+\bibinfo{author}{Cooray, A.}, \bibinfo{author}{Sheth, R.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Halo models of large scale structure}.
+\newblock \bibinfo{journal}{Physics Reports} \bibinfo{volume}{327},
+  \bibinfo{pages}{1--129}.
+%Type = Article
+\bibitem[{Corasaniti and Achitouv(2011)}]{Corasaniti2011}
+\bibinfo{author}{Corasaniti, P.S.}, \bibinfo{author}{Achitouv, I.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Excursion set halo mass function and bias in a
+  stochastic barrier model of ellipsoidal collapse}.
+\newblock \bibinfo{journal}{Physical Review D} \bibinfo{volume}{84},
+  \bibinfo{pages}{023009--023009}.
+\newblock \DOIprefix\doi{10.1103/PhysRevD.84.023009}.
+%Type = Article
+\bibitem[{Correa et~al.(2015)Correa, Wyithe, Schaye and Duffy}]{Correa2015b}
+\bibinfo{author}{Correa, C.A.}, \bibinfo{author}{Wyithe, J.S.B.},
+  \bibinfo{author}{Schaye, J.}, \bibinfo{author}{Duffy, A.R.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The accretion history of dark matter haloes
+  \textendash{} {{III}}. {{A}} physical model for the concentration\textendash
+  mass relation}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{452}, \bibinfo{pages}{1217--1232}.
+\newblock \DOIprefix\doi{10.1093/mnras/stv1363}.
+%Type = Article
+\bibitem[{Coupon et~al.(2015)Coupon, Arnouts, {van Waerbeke}, Moutard, Ilbert,
+  {van Uitert}, Erben, Garilli, Guzzo, Heymans, Hildebrandt, Hoekstra,
+  Kilbinger, Kitching, Mellier, Miller, Scodeggio, Bonnett, Branchini,
+  Davidzon, De~Lucia, Fritz, Fu, Hudelot, Hudson, Kuijken, Leauthaud,
+  F{\`e}vre, McCracken, Moscardini, Rowe, Schrabback, Semboloni, Velander,
+  Le~Fevre, McCracken, Moscardini, Rowe, Schrabback, Semboloni and
+  Velander}]{Coupon2015}
+\bibinfo{author}{Coupon, J.}, \bibinfo{author}{Arnouts, S.},
+  \bibinfo{author}{{van Waerbeke}, L.}, \bibinfo{author}{Moutard, T.},
+  \bibinfo{author}{Ilbert, O.}, \bibinfo{author}{{van Uitert}, E.},
+  \bibinfo{author}{Erben, T.}, \bibinfo{author}{Garilli, B.},
+  \bibinfo{author}{Guzzo, L.}, \bibinfo{author}{Heymans, C.},
+  \bibinfo{author}{Hildebrandt, H.}, \bibinfo{author}{Hoekstra, H.},
+  \bibinfo{author}{Kilbinger, M.}, \bibinfo{author}{Kitching, T.},
+  \bibinfo{author}{Mellier, Y.}, \bibinfo{author}{Miller, L.},
+  \bibinfo{author}{Scodeggio, M.}, \bibinfo{author}{Bonnett, C.},
+  \bibinfo{author}{Branchini, E.}, \bibinfo{author}{Davidzon, I.},
+  \bibinfo{author}{De~Lucia, G.}, \bibinfo{author}{Fritz, a.},
+  \bibinfo{author}{Fu, L.}, \bibinfo{author}{Hudelot, P.},
+  \bibinfo{author}{Hudson, M.J.}, \bibinfo{author}{Kuijken, K.},
+  \bibinfo{author}{Leauthaud, a.}, \bibinfo{author}{F{\`e}vre, O.L.},
+  \bibinfo{author}{McCracken, H.J.}, \bibinfo{author}{Moscardini, L.},
+  \bibinfo{author}{Rowe, B.T.P.}, \bibinfo{author}{Schrabback, T.},
+  \bibinfo{author}{Semboloni, E.}, \bibinfo{author}{Velander, M.},
+  \bibinfo{author}{Le~Fevre, O.}, \bibinfo{author}{McCracken, H.J.},
+  \bibinfo{author}{Moscardini, L.}, \bibinfo{author}{Rowe, B.T.P.},
+  \bibinfo{author}{Schrabback, T.}, \bibinfo{author}{Semboloni, E.},
+  \bibinfo{author}{Velander, M.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The galaxy-halo connection from a joint lensing,
+  clustering and abundance analysis in the {{CFHTLenS}}/{{VIPERS}} field}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{449}, \bibinfo{pages}{1352--1379}.
+\newblock \DOIprefix\doi{10.1093/mnras/stv276}.
+%Type = Article
+\bibitem[{Dalal et~al.(2010)Dalal, Lithwick and Kuhlen}]{Dalal2010}
+\bibinfo{author}{Dalal, N.}, \bibinfo{author}{Lithwick, Y.},
+  \bibinfo{author}{Kuhlen, M.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{The {{Origin}} of {{Dark Matter Halo Profiles}}}.
+\newblock \bibinfo{journal}{arXiv e-prints} \bibinfo{volume}{1010},
+  \bibinfo{pages}{arXiv:1010.2539}.
+%Type = Article
+\bibitem[{Diemer(2018)}]{Diemer2018}
+\bibinfo{author}{Diemer, B.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{{COLOSSUS}}: {{A Python Toolkit}} for {{Cosmology}},
+  {{Large}}-scale {{Structure}}, and {{Dark Matter Halos}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal Supplement Series}
+  \bibinfo{volume}{239}, \bibinfo{pages}{35}.
+\newblock \DOIprefix\doi{10.3847/1538-4365/aaee8c}.
+%Type = Article
+\bibitem[{Diemer and Joyce(2019)}]{Diemer2019}
+\bibinfo{author}{Diemer, B.}, \bibinfo{author}{Joyce, M.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{An {{Accurate Physical Model}} for {{Halo
+  Concentrations}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{871},
+  \bibinfo{pages}{168}.
+\newblock \DOIprefix\doi{10.3847/1538-4357/aafad6}.
+%Type = Article
+\bibitem[{Diemer et~al.(2013)Diemer, More and Kravtsov}]{Diemer2013}
+\bibinfo{author}{Diemer, B.}, \bibinfo{author}{More, S.},
+  \bibinfo{author}{Kravtsov, A.V.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{{THE PSEUDO}}-{{EVOLUTION OF HALO MASS}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{766},
+  \bibinfo{pages}{25--25}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/766/1/25}.
+%Type = Article
+\bibitem[{Dolag et~al.(2004)Dolag, Bartelmann, Perrotta, Baccigalupi,
+  Moscardini, Meneghetti and Tormen}]{Dolag2004}
+\bibinfo{author}{Dolag, K.}, \bibinfo{author}{Bartelmann, M.},
+  \bibinfo{author}{Perrotta, F.}, \bibinfo{author}{Baccigalupi, C.},
+  \bibinfo{author}{Moscardini, L.}, \bibinfo{author}{Meneghetti, M.},
+  \bibinfo{author}{Tormen, G.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Numerical study of halo concentrations in dark-energy
+  cosmologies}.
+\newblock \bibinfo{journal}{Astronomy \& Astrophysics} \bibinfo{volume}{416},
+  \bibinfo{pages}{853--864}.
+\newblock \DOIprefix\doi{10.1051/0004-6361:20031757}.
+%Type = Article
+\bibitem[{Duffy et~al.(2008)Duffy, Schaye, Kay and Dalla~Vecchia}]{Duffy2008}
+\bibinfo{author}{Duffy, A.R.}, \bibinfo{author}{Schaye, J.},
+  \bibinfo{author}{Kay, S.T.}, \bibinfo{author}{Dalla~Vecchia, C.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Dark matter halo concentrations in the {{Wilkinson
+  Microwave Anisotropy Probe}} year 5 cosmology}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society:
+  Letters} \bibinfo{volume}{390}, \bibinfo{pages}{L64--L68}.
+\newblock \DOIprefix\doi{10.1111/j.1745-3933.2008.00537.x}.
+%Type = Article
+\bibitem[{Einasto(1965)}]{Einasto1965}
+\bibinfo{author}{Einasto, J.}, \bibinfo{year}{1965}.
+\newblock \bibinfo{title}{On the {{Construction}} of a {{Composite Model}} for
+  the {{Galaxy}} and on the {{Determination}} of the {{System}} of {{Galactic
+  Parameters}}}.
+\newblock \bibinfo{journal}{Trudy Astrofizicheskogo Instituta Alma-Ata}
+  \bibinfo{volume}{5}, \bibinfo{pages}{87--100}.
+%Type = Article
+\bibitem[{Eisenstein and Hu(1998)}]{Eisenstein1998}
+\bibinfo{author}{Eisenstein, D.J.}, \bibinfo{author}{Hu, W.},
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Baryonic {{Features}} in the {{Matter Transfer
+  Function}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{496},
+  \bibinfo{pages}{605--614}.
+\newblock \DOIprefix\doi{10.1086/305424}.
+%Type = Article
+\bibitem[{Eke et~al.(2001)Eke, Navarro and Steinmetz}]{Eke2001}
+\bibinfo{author}{Eke, V.R.}, \bibinfo{author}{Navarro, J.F.},
+  \bibinfo{author}{Steinmetz, M.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{The {{Power Spectrum Dependence}} of {{Dark Matter
+  Halo Concentrations}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{554},
+  \bibinfo{pages}{114--125}.
+\newblock \DOIprefix\doi{10.1086/321345}.
+%Type = Article
+\bibitem[{Frenk and White(2012)}]{Frenk2012}
+\bibinfo{author}{Frenk, C.}, \bibinfo{author}{White, S.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Dark matter and cosmic structure}.
+\newblock \bibinfo{journal}{Annalen der Physik} \bibinfo{volume}{524},
+  \bibinfo{pages}{507--534}.
+\newblock \DOIprefix\doi{10.1002/andp.201200212}.
+%Type = Article
+\bibitem[{Garcia et~al.(2020)Garcia, Rozo, Becker and More}]{Garcia2020}
+\bibinfo{author}{Garcia, R.}, \bibinfo{author}{Rozo, E.},
+  \bibinfo{author}{Becker, M.R.}, \bibinfo{author}{More, S.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{A {{Redefinition}} of the {{Halo Boundary Leads}} to
+  a {{Simple}} yet {{Accurate Halo Model}} of {{Large Scale Structure}}}.
+\newblock \bibinfo{journal}{arXiv e-prints} \bibinfo{volume}{2006},
+  \bibinfo{pages}{arXiv:2006.12751}.
+%Type = Article
+\bibitem[{Geach et~al.(2012)Geach, Sobral, Hickox, a.~Wake, Smail, Best, Baugh
+  and Stott}]{Geach2012}
+\bibinfo{author}{Geach, J.E.}, \bibinfo{author}{Sobral, D.},
+  \bibinfo{author}{Hickox, R.C.}, \bibinfo{author}{a.~Wake, D.},
+  \bibinfo{author}{Smail, I.}, \bibinfo{author}{Best, P.N.},
+  \bibinfo{author}{Baugh, C.M.}, \bibinfo{author}{Stott, J.P.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{The clustering of {{H$\alpha$}} emitters at z =2.23
+  from {{HiZELS}}}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{426}, \bibinfo{pages}{679--689}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2012.21725.x}.
+%Type = Article
+\bibitem[{Giocoli et~al.(2012)Giocoli, Tormen and Sheth}]{Giocoli2012}
+\bibinfo{author}{Giocoli, C.}, \bibinfo{author}{Tormen, G.},
+  \bibinfo{author}{Sheth, R.K.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Formation times, mass growth histories and
+  concentrations of dark matter haloes}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{422}, \bibinfo{pages}{185--198}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2012.20594.x}.
+%Type = Article
+\bibitem[{Hernquist(1990)}]{Hernquist1990}
+\bibinfo{author}{Hernquist, L.}, \bibinfo{year}{1990}.
+\newblock \bibinfo{title}{An analytical model for spherical galaxies and
+  bulges}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{356},
+  \bibinfo{pages}{359--359}.
+\newblock \DOIprefix\doi{10.1086/168845}.
+%Type = Article
+\bibitem[{Hunter(2007)}]{Hunter2007}
+\bibinfo{author}{Hunter, J.D.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Matplotlib: {{A 2D}} graphics environment}.
+\newblock \bibinfo{journal}{Computing in Science \& Engineering}
+  \bibinfo{volume}{9}, \bibinfo{pages}{90--95}.
+%Type = Article
+\bibitem[{Ishiyama et~al.(2015)Ishiyama, Enoki, Kobayashi, Makiya, Nagashima
+  and Oogi}]{Ishiyama2015}
+\bibinfo{author}{Ishiyama, T.}, \bibinfo{author}{Enoki, M.},
+  \bibinfo{author}{Kobayashi, M.A.R.}, \bibinfo{author}{Makiya, R.},
+  \bibinfo{author}{Nagashima, M.}, \bibinfo{author}{Oogi, T.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The \${$\nu\$$} 2 {{GC Simulations}} :
+  {{Quantifying}} the {{Dark Side}} of the {{Universe}} in the {{Planck
+  Cosmology}}}.
+\newblock \bibinfo{journal}{Publications of the Astronomical Society of Japan}
+  \bibinfo{volume}{67}, \bibinfo{pages}{61--61}.
+%Type = Article
+\bibitem[{Jenkins et~al.(2001)Jenkins, Frenk, White, Colberg, Cole, Evrard,
+  Couchman and Yoshida}]{Jenkins2001}
+\bibinfo{author}{Jenkins, A.}, \bibinfo{author}{Frenk, C.S.},
+  \bibinfo{author}{White, S.D.M.}, \bibinfo{author}{Colberg, J.M.},
+  \bibinfo{author}{Cole, S.}, \bibinfo{author}{Evrard, A.E.},
+  \bibinfo{author}{Couchman, H.M.P.}, \bibinfo{author}{Yoshida, N.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{The mass function of dark matter haloes}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{321}, \bibinfo{pages}{372--384}.
+\newblock \DOIprefix\doi{10.1046/j.1365-8711.2001.04029.x}.
+%Type = Article
+\bibitem[{Jing(1998)}]{Jing1998}
+\bibinfo{author}{Jing, Y.P.}, \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Accurate {{Fitting Formula}} for the {{Two}}-{{Point
+  Correlation Function}} of {{Dark Matter Halos}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{503},
+  \bibinfo{pages}{L9--L13}.
+\newblock \DOIprefix\doi{10.1086/311530}.
+%Type = Article
+\bibitem[{Jing(1999)}]{Jing1999}
+\bibinfo{author}{Jing, Y.P.}, \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{Accurate determination of the {{Lagrangian}} bias for
+  the dark matter halos}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{515},
+  \bibinfo{pages}{L45--L48}.
+\newblock \DOIprefix\doi{10.1086/311978}.
+%Type = Article
+\bibitem[{Jing and Suto(2002)}]{Jing2002}
+\bibinfo{author}{Jing, Y.P.}, \bibinfo{author}{Suto, Y.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Triaxial {{Modeling}} of {{Halo Density Profiles}}
+  with {{High}}-{{Resolution N}} -{{Body Simulations}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{574},
+  \bibinfo{pages}{538--553}.
+\newblock \DOIprefix\doi{10.1086/341065}.
+%Type = Article
+\bibitem[{Kauffmann et~al.(1997)Kauffmann, Nusser and
+  Steinmetz}]{Kauffmann1997}
+\bibinfo{author}{Kauffmann, G.}, \bibinfo{author}{Nusser, A.},
+  \bibinfo{author}{Steinmetz, M.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Galaxy formation and large-scale bias}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{286}, \bibinfo{pages}{795--811}.
+%Type = Article
+\bibitem[{Kauffmann et~al.(2004)Kauffmann, White, Heckman, M{\'e}nard,
+  Brinchmann, Charlot, Tremonti and Brinkmann}]{Kauffmann2004}
+\bibinfo{author}{Kauffmann, G.}, \bibinfo{author}{White, S.D.M.},
+  \bibinfo{author}{Heckman, T.M.}, \bibinfo{author}{M{\'e}nard, B.},
+  \bibinfo{author}{Brinchmann, J.}, \bibinfo{author}{Charlot, S.},
+  \bibinfo{author}{Tremonti, C.}, \bibinfo{author}{Brinkmann, J.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{The environmental dependence of the relations between
+  stellar mass, structure, star formation and nuclear activity in galaxies}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{353}, \bibinfo{pages}{713--731}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2004.08117.x}.
+%Type = Article
+\bibitem[{Kim et~al.(2011)Kim, Baugh, Benson, Cole, Frenk, Lacey, Power and
+  Schneider}]{Kim2011}
+\bibinfo{author}{Kim, H.S.}, \bibinfo{author}{Baugh, C.M.},
+  \bibinfo{author}{Benson, A.J.}, \bibinfo{author}{Cole, S.},
+  \bibinfo{author}{Frenk, C.S.}, \bibinfo{author}{Lacey, C.G.},
+  \bibinfo{author}{Power, C.}, \bibinfo{author}{Schneider, M.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The spatial distribution of cold gas in hierarchical
+  galaxy formation models}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{414}, \bibinfo{pages}{2367--2385}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2011.18556.x}.
+%Type = Article
+\bibitem[{Knebe et~al.(2011)Knebe, Knollmann, Muldrew, Pearce, {Aragon-Calvo},
+  Ascasibar, Behroozi, Ceverino, Colombi, Diemand, Dolag, Falck, Fasel,
+  Gardner, Gottl{\"o}ber, Hsu, Iannuzzi, Klypin, Luki{\'c}, Maciejewski,
+  Mcbride, Neyrinck, Planelles, Potter, Quilis, Rasera, Read, Ricker, Roy,
+  Springel, Stadel, Stinson, Sutter, Turchaninov, Tweed, Yepes and
+  Zemp}]{Knebe2011}
+\bibinfo{author}{Knebe, A.}, \bibinfo{author}{Knollmann, S.R.},
+  \bibinfo{author}{Muldrew, S.I.}, \bibinfo{author}{Pearce, F.R.},
+  \bibinfo{author}{{Aragon-Calvo}, M.A.}, \bibinfo{author}{Ascasibar, Y.},
+  \bibinfo{author}{Behroozi, P.S.}, \bibinfo{author}{Ceverino, D.},
+  \bibinfo{author}{Colombi, S.}, \bibinfo{author}{Diemand, J.},
+  \bibinfo{author}{Dolag, K.}, \bibinfo{author}{Falck, B.L.},
+  \bibinfo{author}{Fasel, P.}, \bibinfo{author}{Gardner, J.},
+  \bibinfo{author}{Gottl{\"o}ber, S.}, \bibinfo{author}{Hsu, C.H.},
+  \bibinfo{author}{Iannuzzi, F.}, \bibinfo{author}{Klypin, A.},
+  \bibinfo{author}{Luki{\'c}, Z.}, \bibinfo{author}{Maciejewski, M.},
+  \bibinfo{author}{Mcbride, C.}, \bibinfo{author}{Neyrinck, M.C.},
+  \bibinfo{author}{Planelles, S.}, \bibinfo{author}{Potter, D.},
+  \bibinfo{author}{Quilis, V.}, \bibinfo{author}{Rasera, Y.},
+  \bibinfo{author}{Read, J.I.}, \bibinfo{author}{Ricker, P.M.},
+  \bibinfo{author}{Roy, F.}, \bibinfo{author}{Springel, V.},
+  \bibinfo{author}{Stadel, J.}, \bibinfo{author}{Stinson, G.},
+  \bibinfo{author}{Sutter, P.M.}, \bibinfo{author}{Turchaninov, V.},
+  \bibinfo{author}{Tweed, D.}, \bibinfo{author}{Yepes, G.},
+  \bibinfo{author}{Zemp, M.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Haloes gone {{MAD}}: {{The Halo}}-{{Finder Comparison
+  Project}}}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{415}, \bibinfo{pages}{2293--2318}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2011.18858.x}.
+%Type = Article
+\bibitem[{Krause et~al.(2012)Krause, Hirata, Martin, Neill and
+  Wyder}]{Krause2012}
+\bibinfo{author}{Krause, E.}, \bibinfo{author}{Hirata, C.M.},
+  \bibinfo{author}{Martin, C.}, \bibinfo{author}{Neill, J.D.},
+  \bibinfo{author}{Wyder, T.K.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Halo occupation distribution modelling of green
+  valley galaxies}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{428}, \bibinfo{pages}{2548--2564}.
+\newblock \DOIprefix\doi{10.1093/mnras/sts221}.
+%Type = Article
+\bibitem[{Lapi and Danese(2014)}]{Lapi2014}
+\bibinfo{author}{Lapi, A.}, \bibinfo{author}{Danese, L.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Statistics of {{Dark Matter Halos}} in the
+  {{Excursion Set Peak Framework}}}.
+\newblock \bibinfo{journal}{Journal of Cosmology and Astroparticle Physics}
+  \bibinfo{volume}{7}, \bibinfo{pages}{44--44}.
+\newblock \DOIprefix\doi{10.1088/1475-7516/2014/07/044}.
+%Type = Article
+\bibitem[{Leauthaud et~al.(2011)Leauthaud, Tinker, Behroozi, Busha and
+  Wechsler}]{Leauthaud2011}
+\bibinfo{author}{Leauthaud, A.}, \bibinfo{author}{Tinker, J.},
+  \bibinfo{author}{Behroozi, P.S.}, \bibinfo{author}{Busha, M.T.},
+  \bibinfo{author}{Wechsler, R.H.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{A {{THEORETICAL FRAMEWORK FOR COMBINING TECHNIQUES
+  THAT PROBE THE LINK BETWEEN GALAXIES AND DARK MATTER}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{738},
+  \bibinfo{pages}{45--45}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/738/1/45}.
+%Type = Article
+\bibitem[{Leauthaud et~al.(2012)Leauthaud, Tinker, Bundy, Behroozi, Massey,
+  Rhodes, George, Kneib, Benson, Wechsler, Busha, Capak, Cort{\^e}s, Ilbert,
+  Koekemoer, Le~F{\`e}vre, Lilly, McCracken, Salvato, Schrabback, Scoville,
+  Smith and Taylor}]{Leauthaud2012}
+\bibinfo{author}{Leauthaud, A.}, \bibinfo{author}{Tinker, J.},
+  \bibinfo{author}{Bundy, K.}, \bibinfo{author}{Behroozi, P.S.},
+  \bibinfo{author}{Massey, R.}, \bibinfo{author}{Rhodes, J.},
+  \bibinfo{author}{George, M.R.}, \bibinfo{author}{Kneib, J.P.},
+  \bibinfo{author}{Benson, A.J.}, \bibinfo{author}{Wechsler, R.H.},
+  \bibinfo{author}{Busha, M.T.}, \bibinfo{author}{Capak, P.},
+  \bibinfo{author}{Cort{\^e}s, M.}, \bibinfo{author}{Ilbert, O.},
+  \bibinfo{author}{Koekemoer, A.M.}, \bibinfo{author}{Le~F{\`e}vre, O.},
+  \bibinfo{author}{Lilly, S.}, \bibinfo{author}{McCracken, H.J.},
+  \bibinfo{author}{Salvato, M.}, \bibinfo{author}{Schrabback, T.},
+  \bibinfo{author}{Scoville, N.}, \bibinfo{author}{Smith, T.},
+  \bibinfo{author}{Taylor, J.E.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{{NEW CONSTRAINTS ON THE EVOLUTION OF THE
+  STELLAR}}-{{TO}}-{{DARK MATTER CONNECTION}}: {{A COMBINED ANALYSIS OF
+  GALAXY}}-{{GALAXY LENSING}}, {{CLUSTERING}}, {{AND STELLAR MASS FUNCTIONS
+  FROM}} z = 0.2 to z = 1}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{744},
+  \bibinfo{pages}{159--159}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/744/2/159}.
+%Type = Article
+\bibitem[{Lesgourgues(2011)}]{Lesgourgues2011}
+\bibinfo{author}{Lesgourgues, J.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The {{Cosmic Linear Anisotropy Solving System}}
+  ({{CLASS}}) {{I}}: {{Overview}}}.
+\newblock \bibinfo{journal}{arXiv e-prints} \bibinfo{volume}{1104},
+  \bibinfo{pages}{arXiv:1104.2932}.
+%Type = Article
+\bibitem[{Lewis et~al.(2000)Lewis, Challinor and Lasenby}]{Lewis2000}
+\bibinfo{author}{Lewis, A.}, \bibinfo{author}{Challinor, A.},
+  \bibinfo{author}{Lasenby, A.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Efficient {{Computation}} of {{Cosmic Microwave
+  Background Anisotropies}} in {{Closed Friedmann}}-{{Robertson}}-{{Walker
+  Models}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{538},
+  \bibinfo{pages}{473--476}.
+\newblock \DOIprefix\doi{10.1086/309179}.
+%Type = Article
+\bibitem[{Limber(1953)}]{Limber1953}
+\bibinfo{author}{Limber, D.N.}, \bibinfo{year}{1953}.
+\newblock \bibinfo{title}{The {{Analysis}} of {{Counts}} of the {{Extragalactic
+  Nebulae}} in {{Terms}} of a {{Fluctuating Density Field}}.}
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{117},
+  \bibinfo{pages}{134}.
+\newblock \DOIprefix\doi{10.1086/145672}.
+%Type = Article
+\bibitem[{Ludlow et~al.(2016)Ludlow, Bose, Angulo, Wang, Hellwing, Navarro,
+  Cole and Frenk}]{Ludlow2016}
+\bibinfo{author}{Ludlow, A.D.}, \bibinfo{author}{Bose, S.},
+  \bibinfo{author}{Angulo, R.E.}, \bibinfo{author}{Wang, L.},
+  \bibinfo{author}{Hellwing, W.A.}, \bibinfo{author}{Navarro, J.F.},
+  \bibinfo{author}{Cole, S.}, \bibinfo{author}{Frenk, C.S.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{The {{Mass}}-{{Concentration}}-{{Redshift Relation}}
+  of {{Cold}} and {{Warm Dark Matter Halos}}}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{000}, \bibinfo{pages}{0--0}.
+\newblock \DOIprefix\doi{10.1093/mnras/stw1046}.
+%Type = Article
+\bibitem[{Ludlow et~al.(2014)Ludlow, Navarro, Angulo, {Boylan-kolchin},
+  Springel, Frenk and White}]{Ludlow2014}
+\bibinfo{author}{Ludlow, A.D.}, \bibinfo{author}{Navarro, J.F.},
+  \bibinfo{author}{Angulo, R.E.}, \bibinfo{author}{{Boylan-kolchin}, M.},
+  \bibinfo{author}{Springel, V.}, \bibinfo{author}{Frenk, C.},
+  \bibinfo{author}{White, S.D.M.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{The mass-concentration-redshift relation of cold dark
+  matter haloes}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{441}, \bibinfo{pages}{378--388}.
+\newblock \DOIprefix\doi{10.1093/mnras/stu483}.
+%Type = Article
+\bibitem[{Ludlow et~al.(2013)Ludlow, Navarro, {Boylan-Kolchin}, Bett, Angulo,
+  Li, White, Frenk and Springel}]{Ludlow2013}
+\bibinfo{author}{Ludlow, A.D.}, \bibinfo{author}{Navarro, J.F.},
+  \bibinfo{author}{{Boylan-Kolchin}, M.}, \bibinfo{author}{Bett, P.E.},
+  \bibinfo{author}{Angulo, R.E.}, \bibinfo{author}{Li, M.},
+  \bibinfo{author}{White, S.D.M.}, \bibinfo{author}{Frenk, C.},
+  \bibinfo{author}{Springel, V.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{The {{Mass Profile}} and {{Accretion History}} of
+  {{Cold Dark Matter Halos}}}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{432}, \bibinfo{pages}{1103--1113}.
+\newblock \DOIprefix\doi{10.1093/mnras/stt526}.
+%Type = Article
+\bibitem[{Ma and Fry(2000)}]{Ma2000}
+\bibinfo{author}{Ma, C.}, \bibinfo{author}{Fry, J.N.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Deriving the nonlinear cosmological power spectrum
+  and bispectrum from analytic dark matter halo profiles and mass functions}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{10},
+  \bibinfo{pages}{503--513}.
+%Type = Article
+\bibitem[{Ma et~al.(2011)Ma, Maggiore, Riotto and Zhang}]{Ma2011}
+\bibinfo{author}{Ma, C.}, \bibinfo{author}{Maggiore, M.},
+  \bibinfo{author}{Riotto, A.}, \bibinfo{author}{Zhang, J.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The bias and mass function of dark matter haloes in
+  non-{{Markovian}} extension of the excursion set theory}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{411}, \bibinfo{pages}{2644--2652}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2010.17871.x}.
+%Type = Article
+\bibitem[{Macci{\`o} et~al.(2008)Macci{\`o}, Dutton and {van den
+  Bosch}}]{Maccio2008}
+\bibinfo{author}{Macci{\`o}, A.V.}, \bibinfo{author}{Dutton, A.A.},
+  \bibinfo{author}{{van den Bosch}, F.C.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Concentration, spin and shape of dark matter haloes
+  as a function of the cosmological model: {{WMAP}} 1, {{WMAP}} 3 and {{WMAP}}
+  5 results}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{391}, \bibinfo{pages}{1940--1954}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2008.14029.x}.
+%Type = Article
+\bibitem[{Mandelbaum et~al.(2006)Mandelbaum, Seljak, Kauffmann, Hirata and
+  Brinkmann}]{Mandelbaum2006}
+\bibinfo{author}{Mandelbaum, R.}, \bibinfo{author}{Seljak, U.},
+  \bibinfo{author}{Kauffmann, G.}, \bibinfo{author}{Hirata, C.M.},
+  \bibinfo{author}{Brinkmann, J.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Galaxy halo masses and satellite fractions from
+  galaxy-galaxy lensing in the {{Sloan Digital Sky Survey}}: {{Stellar}} mass,
+  luminosity, morphology and environment dependencies}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{368}, \bibinfo{pages}{715--731}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2006.10156.x}.
+%Type = Article
+\bibitem[{Mandelbaum et~al.(2005)Mandelbaum, Tasitsiomi, Seljak, Kravtsov and
+  Wechsler}]{Mandelbaum2005}
+\bibinfo{author}{Mandelbaum, R.}, \bibinfo{author}{Tasitsiomi, A.},
+  \bibinfo{author}{Seljak, U.}, \bibinfo{author}{Kravtsov, A.V.},
+  \bibinfo{author}{Wechsler, R.H.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Galaxy-galaxy lensing: {{Dissipationless}}
+  simulations versus the halo model}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{362}, \bibinfo{pages}{1451--1462}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2005.09417.x}.
+%Type = Article
+\bibitem[{Manera et~al.(2010)Manera, Sheth and Scoccimarro}]{Manera2010}
+\bibinfo{author}{Manera, M.}, \bibinfo{author}{Sheth, R.K.},
+  \bibinfo{author}{Scoccimarro, R.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Large-scale bias and the inaccuracy of the
+  peak-background split}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{402}, \bibinfo{pages}{589--602}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2009.15921.x}.
+%Type = Article
+\bibitem[{Mo and White(1996)}]{Mo1996}
+\bibinfo{author}{Mo, H.J.}, \bibinfo{author}{White, S.D.M.},
+  \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{An analytic model for the spatial clustering of dark
+  matter haloes}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{282}, \bibinfo{pages}{347--361}.
+\newblock \DOIprefix\doi{10.1093/mnras/282.2.347}.
+%Type = Article
+\bibitem[{Moore et~al.(1998)Moore, Governato, Quinn, Stadel and
+  Lake}]{Moore1998}
+\bibinfo{author}{Moore, B.}, \bibinfo{author}{Governato, F.},
+  \bibinfo{author}{Quinn, T.}, \bibinfo{author}{Stadel, J.},
+  \bibinfo{author}{Lake, G.}, \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Resolving the {{Structure}} of {{Cold Dark Matter
+  Halos}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{499},
+  \bibinfo{pages}{L5--L8}.
+\newblock \DOIprefix\doi{10.1086/311333}.
+%Type = Article
+\bibitem[{More(2013)}]{More2013}
+\bibinfo{author}{More, S.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Cosmological {{Dependence}} of the {{Measurements}}
+  of {{Luminosity Function}}, {{Projected Clustering}} and {{Galaxy}}-{{Galaxy
+  Lensing Signal}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{777},
+  \bibinfo{pages}{L26--L26}.
+\newblock \DOIprefix\doi{10.1088/2041-8205/777/2/L26}.
+%Type = Article
+\bibitem[{More et~al.(2011)More, Kravtsov, Dalal and Gottl{\"o}ber}]{More2011}
+\bibinfo{author}{More, S.}, \bibinfo{author}{Kravtsov, A.V.},
+  \bibinfo{author}{Dalal, N.}, \bibinfo{author}{Gottl{\"o}ber, S.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The {{Overdensity}} and {{Masses}} of the
+  {{Friends}}-of-friends {{Halos}} and {{Universality}} of {{Halo Mass
+  Function}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal Supplement Series}
+  \bibinfo{volume}{195}, \bibinfo{pages}{4}.
+\newblock \DOIprefix\doi{10.1088/0067-0049/195/1/4}.
+%Type = Article
+\bibitem[{More et~al.(2015)More, Miyatake, Mandelbaum, Takada, Spergel,
+  Brownstein and Schneider}]{More2015}
+\bibinfo{author}{More, S.}, \bibinfo{author}{Miyatake, H.},
+  \bibinfo{author}{Mandelbaum, R.}, \bibinfo{author}{Takada, M.},
+  \bibinfo{author}{Spergel, D.N.}, \bibinfo{author}{Brownstein, J.R.},
+  \bibinfo{author}{Schneider, D.P.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The {{Weak Lensing Signal}} and the {{Clustering}} of
+  {{Boss Galaxies}}. {{Ii}}. {{Astrophysical}} and {{Cosmological
+  Constraints}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{806},
+  \bibinfo{pages}{2--2}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/806/1/2}.
+%Type = Article
+\bibitem[{Moustakas and Somerville(2002)}]{Moustakas2002}
+\bibinfo{author}{Moustakas, L.A.}, \bibinfo{author}{Somerville, R.S.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{The {{Masses}}, {{Ancestors}} and {{Descendents}} of
+  {{Extremely Red Objects}}: {{Constraints}} from {{Spatial Clustering}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{577},
+  \bibinfo{pages}{1--10}.
+\newblock \DOIprefix\doi{10.1086/342133}.
+%Type = Article
+\bibitem[{Murray and Poulin(2019)}]{Murray2019}
+\bibinfo{author}{Murray, S.}, \bibinfo{author}{Poulin, F.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Hankel: {{A Python}} library for performing simple
+  and accurate {{Hankel}} transformations}.
+\newblock \bibinfo{journal}{The Journal of Open Source Software}
+  \bibinfo{volume}{4}, \bibinfo{pages}{1397}.
+\newblock \DOIprefix\doi{10.21105/joss.01397}.
+%Type = Article
+\bibitem[{Murray et~al.(2013a)Murray, {Power C.} and Robotham}]{Murray2013}
+\bibinfo{author}{Murray, S.}, \bibinfo{author}{{Power C.}},
+  \bibinfo{author}{Robotham, A.}, \bibinfo{year}{2013}a.
+\newblock \bibinfo{title}{How well do we know the halo mass function?}
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society:
+  Letters} \bibinfo{volume}{434}, \bibinfo{pages}{L61--L65}.
+\newblock \DOIprefix\doi{10.1093/mnrasl/slt079}.
+%Type = Article
+\bibitem[{Murray et~al.(2013b)Murray, Power and Robotham}]{Murray2013a}
+\bibinfo{author}{Murray, S.G.}, \bibinfo{author}{Power, C.},
+  \bibinfo{author}{Robotham, A.S.G.}, \bibinfo{year}{2013}b.
+\newblock \bibinfo{title}{{{HMFcalc}}: {{An}} online tool for calculating dark
+  matter halo mass functions}.
+\newblock \bibinfo{journal}{Astronomy and Computing} \bibinfo{volume}{3},
+  \bibinfo{pages}{23--34}.
+\newblock \DOIprefix\doi{10.1016/j.ascom.2013.11.001}.
+%Type = Article
+\bibitem[{Navarro et~al.(1997)Navarro, Frenk and White}]{Navarro1997}
+\bibinfo{author}{Navarro, J.F.}, \bibinfo{author}{Frenk, C.S.},
+  \bibinfo{author}{White, S.D.M.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{A {{Universal Density Profile}} from {{Hierarchical
+  Clustering}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{490},
+  \bibinfo{pages}{493--508}.
+\newblock \DOIprefix\doi{10.1086/304888}.
+%Type = Article
+\bibitem[{Neyman et~al.(1953)Neyman, Scott and Shane}]{Neyman1953}
+\bibinfo{author}{Neyman, J.}, \bibinfo{author}{Scott, E.L.},
+  \bibinfo{author}{Shane, C.D.}, \bibinfo{year}{1953}.
+\newblock \bibinfo{title}{On the {{Spatial Distribution}} of {{Galaxies}}: A
+  {{Specific Model}}.}
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{117},
+  \bibinfo{pages}{92--92}.
+\newblock \DOIprefix\doi{10.1086/145671}.
+%Type = Article
+\bibitem[{Ogata(2005)}]{Ogata2005}
+\bibinfo{author}{Ogata, H.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{A {{Numerical Integration Formula Based}} on the
+  {{Bessel Functions}}}.
+\newblock \bibinfo{journal}{Publ. RIMS, Kyoto Univ.} \bibinfo{volume}{41},
+  \bibinfo{pages}{949--970}.
+%Type = Article
+\bibitem[{Padmanabhan et~al.(2016)Padmanabhan, Refregier and
+  Amara}]{Padmanabhan2016b}
+\bibinfo{author}{Padmanabhan, H.}, \bibinfo{author}{Refregier, A.},
+  \bibinfo{author}{Amara, A.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{A halo model for cosmological neutral hydrogen :
+  Abundances and clustering}.
+\newblock \bibinfo{journal}{eprint arXiv:1611.06235} .
+%Type = Article
+\bibitem[{Paranjape et~al.(2013a)Paranjape, Sefusatti, Chan, Desjacques, Monaco
+  and Sheth}]{Paranjape2013}
+\bibinfo{author}{Paranjape, A.}, \bibinfo{author}{Sefusatti, E.},
+  \bibinfo{author}{Chan, K.C.}, \bibinfo{author}{Desjacques, V.},
+  \bibinfo{author}{Monaco, P.}, \bibinfo{author}{Sheth, R.K.},
+  \bibinfo{year}{2013}a.
+\newblock \bibinfo{title}{Bias deconstructed: Unravelling the scale dependence
+  of halo bias using real-space measurements}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{436}, \bibinfo{pages}{449--459}.
+\newblock \DOIprefix\doi{10.1093/mnras/stt1578}.
+%Type = Article
+\bibitem[{Paranjape et~al.(2013b)Paranjape, Sheth and
+  Desjacques}]{Paranjape2013a}
+\bibinfo{author}{Paranjape, A.}, \bibinfo{author}{Sheth, R.K.},
+  \bibinfo{author}{Desjacques, V.}, \bibinfo{year}{2013}b.
+\newblock \bibinfo{title}{Excursion set peaks: A self-consistent model of dark
+  halo abundances and clustering}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{431}, \bibinfo{pages}{1503--1512}.
+\newblock \DOIprefix\doi{10.1093/mnras/stt267}.
+%Type = Article
+\bibitem[{Peacock(2007)}]{Peacock2007}
+\bibinfo{author}{Peacock, J.A.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Testing anthropic predictions for ~ and the cosmic
+  microwave background temperature}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{379}, \bibinfo{pages}{1067--1074}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2007.11978.x}.
+%Type = Article
+\bibitem[{Peacock and Smith(2000)}]{Peacock2000}
+\bibinfo{author}{Peacock, J.A.}, \bibinfo{author}{Smith, R.E.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Halo occupation numbers and galaxy bias}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{318}, \bibinfo{pages}{1144--1156}.
+\newblock \DOIprefix\doi{10.1046/j.1365-8711.2000.03779.x}.
+%Type = Article
+\bibitem[{Pillepich et~al.(2010)Pillepich, Porciani and Hahn}]{Pillepich2010}
+\bibinfo{author}{Pillepich, A.}, \bibinfo{author}{Porciani, C.},
+  \bibinfo{author}{Hahn, O.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Halo mass function and scale-dependent bias from
+  {{N}}-body simulations with non-{{Gaussian}} initial conditions}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{402}, \bibinfo{pages}{191--206}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2009.15914.x}.
+%Type = Article
+\bibitem[{{Planck Collaboration}(2015)}]{PlanckCollaboration2015}
+\bibinfo{author}{{Planck Collaboration}}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Planck 2015 reslts. {{XIII}}. {{Cosmological}}
+  parameters}.
+\newblock \bibinfo{journal}{Astronomy \& Astrophysics} ,
+  \bibinfo{pages}{20--20}.
+%Type = Article
+\bibitem[{Poole et~al.(2015)Poole, Blake, Marin, Power, Mutch, Croton, Colless,
+  Couch, Drinkwater and Glazebrook}]{Poole2015}
+\bibinfo{author}{Poole, G.B.}, \bibinfo{author}{Blake, C.},
+  \bibinfo{author}{Marin, F.A.}, \bibinfo{author}{Power, C.},
+  \bibinfo{author}{Mutch, S.J.}, \bibinfo{author}{Croton, D.J.},
+  \bibinfo{author}{Colless, M.}, \bibinfo{author}{Couch, W.},
+  \bibinfo{author}{Drinkwater, M.J.}, \bibinfo{author}{Glazebrook, K.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The {{Gigaparsec WiggleZ}} simulations:
+  Characterizing scale-dependant bias and associated systematics in growth of
+  structure measurements}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{449}, \bibinfo{pages}{1454--1469}.
+\newblock \DOIprefix\doi{10.1093/mnras/stv314}.
+%Type = Article
+\bibitem[{Prada et~al.(2012)Prada, Klypin, Cuesta, {Betancort-Rijo} and
+  Primack}]{Prada2012}
+\bibinfo{author}{Prada, F.}, \bibinfo{author}{Klypin, A.A.},
+  \bibinfo{author}{Cuesta, A.J.}, \bibinfo{author}{{Betancort-Rijo}, J.E.},
+  \bibinfo{author}{Primack, J.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Halo concentrations in the standard {{$\Lambda$}}
+  cold dark matter cosmology}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{423}, \bibinfo{pages}{3018--3030}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2012.21007.x}.
+%Type = Article
+\bibitem[{Press and Schechter(1974)}]{Press1974}
+\bibinfo{author}{Press, W.H.}, \bibinfo{author}{Schechter, P.},
+  \bibinfo{year}{1974}.
+\newblock \bibinfo{title}{Formation of galaxies and clusters of galaxies by
+  self-similar gravitational condensation}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{187},
+  \bibinfo{pages}{425--438}.
+%Type = Article
+\bibitem[{Reddick et~al.(2014)Reddick, Tinker, Wechsler and Lu}]{Reddick2014}
+\bibinfo{author}{Reddick, R.M.}, \bibinfo{author}{Tinker, J.L.},
+  \bibinfo{author}{Wechsler, R.H.}, \bibinfo{author}{Lu, Y.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{{COSMOLOGICAL CONSTRAINTS FROM GALAXY CLUSTERING AND
+  THE MASS}}-{{TO}}-{{NUMBER RATIO OF GALAXY CLUSTERS}}: {{MARGINALIZING OVER
+  THE PHYSICS OF GALAXY FORMATION}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{783},
+  \bibinfo{pages}{118--118}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/783/2/118}.
+%Type = Article
+\bibitem[{Robitaille et~al.(2013)Robitaille, Tollerud, Greenfield, Droettboom,
+  Bray, Aldcroft, Davis, Ginsburg, {Price-Whelan}, Kerzendorf, Conley,
+  Crighton, Barbary, Muna, Ferguson, Grollier, Parikh, Nair, G{\"u}nther, Deil,
+  Woillez, Conseil, Kramer, Turner, Singer, Fox, Weaver, Zabalza, Edwards,
+  Azalee~Bostroem, Burke, Casey, Crawford, Dencheva, Ely, Jenness, Labrie, Lim,
+  Pierfederici, Pontzen, Ptak, Refsdal, Servillat and
+  Streicher}]{Robitaille2013}
+\bibinfo{author}{Robitaille, T.P.}, \bibinfo{author}{Tollerud, E.J.},
+  \bibinfo{author}{Greenfield, P.}, \bibinfo{author}{Droettboom, M.},
+  \bibinfo{author}{Bray, E.}, \bibinfo{author}{Aldcroft, T.},
+  \bibinfo{author}{Davis, M.}, \bibinfo{author}{Ginsburg, A.},
+  \bibinfo{author}{{Price-Whelan}, A.M.}, \bibinfo{author}{Kerzendorf, W.E.},
+  \bibinfo{author}{Conley, A.}, \bibinfo{author}{Crighton, N.},
+  \bibinfo{author}{Barbary, K.}, \bibinfo{author}{Muna, D.},
+  \bibinfo{author}{Ferguson, H.}, \bibinfo{author}{Grollier, F.},
+  \bibinfo{author}{Parikh, M.M.}, \bibinfo{author}{Nair, P.H.},
+  \bibinfo{author}{G{\"u}nther, H.M.}, \bibinfo{author}{Deil, C.},
+  \bibinfo{author}{Woillez, J.}, \bibinfo{author}{Conseil, S.},
+  \bibinfo{author}{Kramer, R.}, \bibinfo{author}{Turner, J.E.H.},
+  \bibinfo{author}{Singer, L.}, \bibinfo{author}{Fox, R.},
+  \bibinfo{author}{Weaver, B.A.}, \bibinfo{author}{Zabalza, V.},
+  \bibinfo{author}{Edwards, Z.I.}, \bibinfo{author}{Azalee~Bostroem, K.},
+  \bibinfo{author}{Burke, D.J.}, \bibinfo{author}{Casey, A.R.},
+  \bibinfo{author}{Crawford, S.M.}, \bibinfo{author}{Dencheva, N.},
+  \bibinfo{author}{Ely, J.}, \bibinfo{author}{Jenness, T.},
+  \bibinfo{author}{Labrie, K.}, \bibinfo{author}{Lim, P.L.},
+  \bibinfo{author}{Pierfederici, F.}, \bibinfo{author}{Pontzen, A.},
+  \bibinfo{author}{Ptak, A.}, \bibinfo{author}{Refsdal, B.},
+  \bibinfo{author}{Servillat, M.}, \bibinfo{author}{Streicher, O.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Astropy: {{A}} community {{Python}} package for
+  astronomy}.
+\newblock \bibinfo{journal}{Astronomy \& Astrophysics} \bibinfo{volume}{558},
+  \bibinfo{pages}{A33--A33}.
+\newblock \DOIprefix\doi{10.1051/0004-6361/201322068}.
+%Type = Article
+\bibitem[{Schneider(2014)}]{Schneider2014a}
+\bibinfo{author}{Schneider, A.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Structure formation with suppressed small-scale
+  perturbations}.
+\newblock \bibinfo{journal}{Arxiv e-prints} .
+%Type = Article
+\bibitem[{Schneider et~al.(2012)Schneider, Smith, Macci{\`o} and
+  Moore}]{Schneider2012}
+\bibinfo{author}{Schneider, A.}, \bibinfo{author}{Smith, R.E.},
+  \bibinfo{author}{Macci{\`o}, A.V.}, \bibinfo{author}{Moore, B.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Non-linear evolution of cosmological structures in
+  warm dark matter models}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{424}, \bibinfo{pages}{684--698}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2012.21252.x}.
+%Type = Article
+\bibitem[{Schneider et~al.(2013)Schneider, Smith and Reed}]{Schneider2013}
+\bibinfo{author}{Schneider, A.}, \bibinfo{author}{Smith, R.E.},
+  \bibinfo{author}{Reed, D.S.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Halo {{Mass Function}} and the {{Free Streaming
+  Scale}}}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{433}, \bibinfo{pages}{16--16}.
+\newblock \DOIprefix\doi{10.1093/mnras/stt829}.
+%Type = Article
+\bibitem[{Scoccimarro et~al.(2001)Scoccimarro, Sheth, Hui and
+  Jain}]{Scoccimarro2001}
+\bibinfo{author}{Scoccimarro, R.}, \bibinfo{author}{Sheth, R.K.},
+  \bibinfo{author}{Hui, L.}, \bibinfo{author}{Jain, B.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{How many galaxies fit in a halo? {{Constraints}} on
+  galaxy formation efficiency from spatial clustering}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{546},
+  \bibinfo{pages}{20--34}.
+%Type = Article
+\bibitem[{Seljak(2000)}]{Seljak2000}
+\bibinfo{author}{Seljak, U.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Analytic model for galaxy and dark matter
+  clustering}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{213}.
+%Type = Article
+\bibitem[{Seljak and Warren(2004)}]{Seljak2004}
+\bibinfo{author}{Seljak, U.}, \bibinfo{author}{Warren, M.S.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Large-scale bias and stochasticity of haloes and dark
+  matter}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{355}, \bibinfo{pages}{129--136}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2004.08297.x}.
+%Type = Article
+\bibitem[{Shen et~al.(2013)Shen, McBride, White, Zheng, Myers, Guo,
+  Kirkpatrick, Padmanabhan, Parejko, Ross, Schlegel, Schneider, Streblyanska,
+  Swanson, Zehavi, Pan, Bizyaev, Brewington, Ebelke, Malanushenko,
+  Malanushenko, Oravetz, Simmons and Snedden}]{Shen2013}
+\bibinfo{author}{Shen, Y.}, \bibinfo{author}{McBride, C.K.},
+  \bibinfo{author}{White, M.}, \bibinfo{author}{Zheng, Z.},
+  \bibinfo{author}{Myers, A.D.}, \bibinfo{author}{Guo, H.},
+  \bibinfo{author}{Kirkpatrick, J.A.}, \bibinfo{author}{Padmanabhan, N.},
+  \bibinfo{author}{Parejko, J.K.}, \bibinfo{author}{Ross, N.P.},
+  \bibinfo{author}{Schlegel, D.J.}, \bibinfo{author}{Schneider, D.P.},
+  \bibinfo{author}{Streblyanska, A.}, \bibinfo{author}{Swanson, M.E.C.},
+  \bibinfo{author}{Zehavi, I.}, \bibinfo{author}{Pan, K.},
+  \bibinfo{author}{Bizyaev, D.}, \bibinfo{author}{Brewington, H.},
+  \bibinfo{author}{Ebelke, G.}, \bibinfo{author}{Malanushenko, V.},
+  \bibinfo{author}{Malanushenko, E.}, \bibinfo{author}{Oravetz, D.},
+  \bibinfo{author}{Simmons, A.}, \bibinfo{author}{Snedden, S.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{{CROSS}}-{{CORRELATION OF SDSS DR7 QUASARS AND DR10
+  BOSS GALAXIES}}: {{THE WEAK LUMINOSITY DEPENDENCE OF QUASAR CLUSTERING AT}} z
+  {$\sim$} 0.5}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{778},
+  \bibinfo{pages}{98--98}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/778/2/98}.
+%Type = Article
+\bibitem[{Sheth et~al.(2001a)Sheth, Diaferio, Hui and Scoccimarro}]{Sheth2001}
+\bibinfo{author}{Sheth, R.K.}, \bibinfo{author}{Diaferio, A.},
+  \bibinfo{author}{Hui, L.}, \bibinfo{author}{Scoccimarro, R.},
+  \bibinfo{year}{2001}a.
+\newblock \bibinfo{title}{On the streaming motions of haloes and galaxies}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{326}, \bibinfo{pages}{463--472}.
+\newblock \DOIprefix\doi{10.1046/j.1365-8711.2001.04457.x}.
+%Type = Article
+\bibitem[{Sheth et~al.(2001b)Sheth, Hui, Diaferio and Scoccimarro}]{Sheth2001a}
+\bibinfo{author}{Sheth, R.K.}, \bibinfo{author}{Hui, L.},
+  \bibinfo{author}{Diaferio, A.}, \bibinfo{author}{Scoccimarro, R.},
+  \bibinfo{year}{2001}b.
+\newblock \bibinfo{title}{Linear and non-linear contributions to pairwise
+  peculiar velocities}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{325}, \bibinfo{pages}{1288--1302}.
+\newblock \DOIprefix\doi{10.1046/j.1365-8711.2001.04222.x}.
+%Type = Article
+\bibitem[{Sheth and Tormen(1999)}]{Sheth1999}
+\bibinfo{author}{Sheth, R.K.}, \bibinfo{author}{Tormen, G.},
+  \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{Large scale bias and the peak background split}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{308}, \bibinfo{pages}{119--126}.
+\newblock \DOIprefix\doi{10.1046/j.1365-8711.1999.02692.x}.
+%Type = Article
+\bibitem[{Simon(2007)}]{Simon2007}
+\bibinfo{author}{Simon, P.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{How accurate is {{Limber}}'s equation?}
+\newblock \bibinfo{journal}{Astronomy \& Astrophysics} \bibinfo{volume}{473},
+  \bibinfo{pages}{711--714}.
+\newblock \DOIprefix\doi{10.1051/0004-6361:20066352}.
+%Type = Article
+\bibitem[{a.~Skibba et~al.(2015)a.~Skibba, Coil, Mendez, Blanton, Bray, Cool,
+  Eisenstein, Guo, Miyaji, Moustakas and Zhu}]{Skibba2015}
+\bibinfo{author}{a.~Skibba, R.}, \bibinfo{author}{Coil, A.L.},
+  \bibinfo{author}{Mendez, A.J.}, \bibinfo{author}{Blanton, M.R.},
+  \bibinfo{author}{Bray, A.D.}, \bibinfo{author}{Cool, R.J.},
+  \bibinfo{author}{Eisenstein, D.J.}, \bibinfo{author}{Guo, H.},
+  \bibinfo{author}{Miyaji, T.}, \bibinfo{author}{Moustakas, J.},
+  \bibinfo{author}{Zhu, G.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{{{DARK MATTER HALO MODELS OF STELLAR
+  MASS}}-{{DEPENDENT GALAXY CLUSTERING IN PRIMUS}}+{{DEEP2 AT}} 0.2 {$<$} z
+  {$<$} 1.2}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{807},
+  \bibinfo{pages}{152--152}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/807/2/152}.
+%Type = Article
+\bibitem[{a.~Skibba and Sheth(2009)}]{Skibba2009}
+\bibinfo{author}{a.~Skibba, R.}, \bibinfo{author}{Sheth, R.K.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{A halo model of galaxy colours and clustering in the
+  {{Sloan Digital Sky Survey}}}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{392}, \bibinfo{pages}{1080--1091}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2008.14007.x}.
+%Type = Article
+\bibitem[{Smith et~al.(2011)Smith, Desjacques and Marian}]{Smith2011}
+\bibinfo{author}{Smith, R.E.}, \bibinfo{author}{Desjacques, V.},
+  \bibinfo{author}{Marian, L.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Nonlinear clustering in models with primordial
+  non-{{Gaussianity}}: {{The}} halo model approach}.
+\newblock \bibinfo{journal}{Physical Review D} \bibinfo{volume}{83},
+  \bibinfo{pages}{043526--043526}.
+\newblock \DOIprefix\doi{10.1103/PhysRevD.83.043526}.
+%Type = Article
+\bibitem[{Smith and Markovi{\v c}(2011)}]{Smith2011a}
+\bibinfo{author}{Smith, R.E.}, \bibinfo{author}{Markovi{\v c}, K.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Testing the warm dark matter paradigm with
+  large-scale structures}.
+\newblock \bibinfo{journal}{Physical Review D} \bibinfo{volume}{4},
+  \bibinfo{pages}{1--18}.
+%Type = Article
+\bibitem[{Smith et~al.(2003)Smith, Peacock, Jenkins, White, Frenk, Pearce,
+  Thomas, Efstathiou and Couchman}]{Smith2003}
+\bibinfo{author}{Smith, R.E.}, \bibinfo{author}{Peacock, J.A.},
+  \bibinfo{author}{Jenkins, A.}, \bibinfo{author}{White, S.D.M.},
+  \bibinfo{author}{Frenk, C.S.}, \bibinfo{author}{Pearce, F.R.},
+  \bibinfo{author}{Thomas, P.A.}, \bibinfo{author}{Efstathiou, G.},
+  \bibinfo{author}{Couchman, H.M.P.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Stable clustering, the halo model and non-linear
+  cosmological power spectra}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{341}, \bibinfo{pages}{1311--1332}.
+\newblock \DOIprefix\doi{10.1046/j.1365-8711.2003.06503.x}.
+%Type = Article
+\bibitem[{Sunayama et~al.(2015)Sunayama, Hearin, Padmanabhan and
+  Leauthaud}]{Sunayama2015}
+\bibinfo{author}{Sunayama, T.}, \bibinfo{author}{Hearin, A.P.},
+  \bibinfo{author}{Padmanabhan, N.}, \bibinfo{author}{Leauthaud, A.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The {{Scale}}-{{Dependence}} of {{Halo Assembly
+  Bias}}}.
+\newblock \bibinfo{journal}{Arxiv e-prints} .
+%Type = Article
+\bibitem[{Szapudi et~al.(2005)Szapudi, Pan, Prunet and
+  Budav{\'a}ri}]{Szapudi2005}
+\bibinfo{author}{Szapudi, I.}, \bibinfo{author}{Pan, J.},
+  \bibinfo{author}{Prunet, S.}, \bibinfo{author}{Budav{\'a}ri, T.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Fast {{Edge Corrected Measurement}} of the
+  {{Two}}-{{Point Correlation Function}} and the {{Power Spectrum}}}.
+\newblock \bibinfo{journal}{Arxiv e-prints} ,
+  \bibinfo{pages}{4--4}\DOIprefix\doi{10.1086/496971}.
+%Type = Article
+\bibitem[{Takahashi et~al.(2012)Takahashi, Sato, Nishimichi, Taruya and
+  Oguri}]{Takahashi2012}
+\bibinfo{author}{Takahashi, R.}, \bibinfo{author}{Sato, M.},
+  \bibinfo{author}{Nishimichi, T.}, \bibinfo{author}{Taruya, A.},
+  \bibinfo{author}{Oguri, M.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{{REVISING THE HALOFIT MODEL FOR THE NONLINEAR MATTER
+  POWER SPECTRUM}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{761},
+  \bibinfo{pages}{152--152}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/761/2/152}.
+%Type = Article
+\bibitem[{Taylor(2011)}]{Taylor2011}
+\bibinfo{author}{Taylor, J.E.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Dark {{Matter Halos}} from the {{Inside Out}}}.
+\newblock \bibinfo{journal}{Advances in Astronomy} \bibinfo{volume}{2011},
+  \bibinfo{pages}{1--17}.
+\newblock \DOIprefix\doi{10.1155/2011/604898}.
+%Type = Article
+\bibitem[{Tinker et~al.(2010)Tinker, Robertson, Kravtsov, Klypin, Warren, Yepes
+  and Gottl{\"o}ber}]{Tinker2010}
+\bibinfo{author}{Tinker, J.L.}, \bibinfo{author}{Robertson, B.E.},
+  \bibinfo{author}{Kravtsov, A.V.}, \bibinfo{author}{Klypin, A.},
+  \bibinfo{author}{Warren, M.S.}, \bibinfo{author}{Yepes, G.},
+  \bibinfo{author}{Gottl{\"o}ber, S.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{The large-scale bias of dark matter halos: Numerical
+  calibration and model tests}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{724},
+  \bibinfo{pages}{878--886}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/724/2/878}.
+%Type = Article
+\bibitem[{Tinker and Weinberg(2005)}]{Tinker2005}
+\bibinfo{author}{Tinker, J.L.}, \bibinfo{author}{Weinberg, D.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{On the mass-to-light ratio of large-scale structure}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{631},
+  \bibinfo{pages}{41--58}.
+%Type = Article
+\bibitem[{{van der Walt} et~al.(2011){van der Walt}, Colbert and
+  Varoquaux}]{vanderWalt2011}
+\bibinfo{author}{{van der Walt}, S.}, \bibinfo{author}{Colbert, S.C.},
+  \bibinfo{author}{Varoquaux, G.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{The {{NumPy Array}}: {{A Structure}} for {{Efficient
+  Numerical Computation}}}.
+\newblock \bibinfo{journal}{Computing in Science \& Engineering}
+  \bibinfo{volume}{13}, \bibinfo{pages}{22--30}.
+\newblock \DOIprefix\doi{10.1109/MCSE.2011.37}.
+%Type = Article
+\bibitem[{Viel et~al.(2005)Viel, Lesgourgues, Haehnelt, Matarrese and
+  Riotto}]{Viel2005}
+\bibinfo{author}{Viel, M.}, \bibinfo{author}{Lesgourgues, J.},
+  \bibinfo{author}{Haehnelt, M.G.}, \bibinfo{author}{Matarrese, S.},
+  \bibinfo{author}{Riotto, A.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Constraining warm dark matter candidates including
+  sterile neutrinos and light gravitinos with {{WMAP}} and the
+  {{Lyman}}-{$\alpha$} forest}.
+\newblock \bibinfo{journal}{Physical Review D} \bibinfo{volume}{71},
+  \bibinfo{pages}{1--10}.
+\newblock \DOIprefix\doi{10.1103/PhysRevD.71.063534}.
+%Type = Article
+\bibitem[{Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy,
+  Cournapeau, Burovski, Peterson, Weckesser, Bright, {van der Walt}, Brett,
+  Wilson, Millman, Mayorov, Nelson, Jones, Kern, Larson, Carey, Polat, Feng,
+  Moore, VanderPlas, Laxalde, Perktold, Cimrman, Henriksen, Quintero, Harris,
+  Archibald, Ribeiro, Pedregosa and {van Mulbregt}}]{Virtanen2020}
+\bibinfo{author}{Virtanen, P.}, \bibinfo{author}{Gommers, R.},
+  \bibinfo{author}{Oliphant, T.E.}, \bibinfo{author}{Haberland, M.},
+  \bibinfo{author}{Reddy, T.}, \bibinfo{author}{Cournapeau, D.},
+  \bibinfo{author}{Burovski, E.}, \bibinfo{author}{Peterson, P.},
+  \bibinfo{author}{Weckesser, W.}, \bibinfo{author}{Bright, J.},
+  \bibinfo{author}{{van der Walt}, S.J.}, \bibinfo{author}{Brett, M.},
+  \bibinfo{author}{Wilson, J.}, \bibinfo{author}{Millman, K.J.},
+  \bibinfo{author}{Mayorov, N.}, \bibinfo{author}{Nelson, A.R.J.},
+  \bibinfo{author}{Jones, E.}, \bibinfo{author}{Kern, R.},
+  \bibinfo{author}{Larson, E.}, \bibinfo{author}{Carey, C.J.},
+  \bibinfo{author}{Polat, {\.I}.}, \bibinfo{author}{Feng, Y.},
+  \bibinfo{author}{Moore, E.W.}, \bibinfo{author}{VanderPlas, J.},
+  \bibinfo{author}{Laxalde, D.}, \bibinfo{author}{Perktold, J.},
+  \bibinfo{author}{Cimrman, R.}, \bibinfo{author}{Henriksen, I.},
+  \bibinfo{author}{Quintero, E.A.}, \bibinfo{author}{Harris, C.R.},
+  \bibinfo{author}{Archibald, A.M.}, \bibinfo{author}{Ribeiro, A.H.},
+  \bibinfo{author}{Pedregosa, F.}, \bibinfo{author}{{van Mulbregt}, P.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{{{SciPy}} 1.0: Fundamental algorithms for scientific
+  computing in {{Python}}}.
+\newblock \bibinfo{journal}{Nature Methods} \bibinfo{volume}{17},
+  \bibinfo{pages}{261--272}.
+\newblock \DOIprefix\doi{10.1038/s41592-019-0686-2}.
+%Type = Article
+\bibitem[{Wake et~al.(2008)Wake, Croom, Sadler and Johnston}]{Wake2008a}
+\bibinfo{author}{Wake, D.A.}, \bibinfo{author}{Croom, S.M.},
+  \bibinfo{author}{Sadler, E.M.}, \bibinfo{author}{Johnston, H.M.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{The clustering of radio galaxies at z = 0.55 from the
+  {{2SLAQ LRG}} survey}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{391}, \bibinfo{pages}{1674--1684}.
+\newblock \DOIprefix\doi{10.1111/j.1365-2966.2008.14039.x}.
+%Type = Article
+\bibitem[{Wang et~al.(2020)Wang, Mao, Zentner, Lange, {van den Bosch} and
+  Wechsler}]{Wang2020}
+\bibinfo{author}{Wang, K.}, \bibinfo{author}{Mao, Y.Y.},
+  \bibinfo{author}{Zentner, A.R.}, \bibinfo{author}{Lange, J.U.},
+  \bibinfo{author}{{van den Bosch}, F.C.}, \bibinfo{author}{Wechsler, R.H.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Concentrations of {{Dark Haloes Emerge}} from {{Their
+  Merger Histories}}}.
+\newblock \bibinfo{journal}{arXiv e-prints} \bibinfo{volume}{2004},
+  \bibinfo{pages}{arXiv:2004.13732}.
+%Type = Article
+\bibitem[{Wechsler et~al.(2002)Wechsler, Bullock, Primack, Kravtsov and
+  Dekel}]{Wechsler2002}
+\bibinfo{author}{Wechsler, R.H.}, \bibinfo{author}{Bullock, J.S.},
+  \bibinfo{author}{Primack, J.R.}, \bibinfo{author}{Kravtsov, A.V.},
+  \bibinfo{author}{Dekel, A.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Concentrations of {{Dark Halos}} from {{Their
+  Assembly Histories}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{568},
+  \bibinfo{pages}{52--70}.
+\newblock \DOIprefix\doi{10.1086/338765}.
+%Type = Article
+\bibitem[{White et~al.(2001)White, Hernquist and Springel}]{White2001}
+\bibinfo{author}{White, M.}, \bibinfo{author}{Hernquist, L.},
+  \bibinfo{author}{Springel, V.}, \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{The {{Halo Model}} and {{Numerical Simulations}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{550},
+  \bibinfo{pages}{L129--L132}.
+\newblock \DOIprefix\doi{10.1086/319644}.
+%Type = Article
+\bibitem[{Wolz et~al.(2019)Wolz, Murray, Blake and Wyithe}]{Wolz2019}
+\bibinfo{author}{Wolz, L.}, \bibinfo{author}{Murray, S.G.},
+  \bibinfo{author}{Blake, C.}, \bibinfo{author}{Wyithe, J.S.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Intensity mapping cross-correlations {{II}}: {{HI}}
+  halo models including shot noise}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{484}, \bibinfo{pages}{1007}.
+\newblock \DOIprefix\doi{10.1093/mnras/sty3142}.
+%Type = Article
+\bibitem[{Zaldarriaga and Seljak(2000)}]{Zaldarriaga2000}
+\bibinfo{author}{Zaldarriaga, M.}, \bibinfo{author}{Seljak, U.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{{{CMBFAST}} for {{Spatially Closed Universes}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{129},
+  \bibinfo{pages}{431--434}.
+%Type = Article
+\bibitem[{Zehavi et~al.(2011)Zehavi, Zheng, Weinberg, Blanton, a.~Bahcall,
+  a.~Berlind, Brinkmann, a.~Frieman, Gunn, Lupton, Nichol, Percival, Schneider,
+  a.~Skibba, a.~Strauss, Tegmark and York}]{Zehavi2011}
+\bibinfo{author}{Zehavi, I.}, \bibinfo{author}{Zheng, Z.},
+  \bibinfo{author}{Weinberg, D.H.}, \bibinfo{author}{Blanton, M.R.},
+  \bibinfo{author}{a.~Bahcall, N.}, \bibinfo{author}{a.~Berlind, A.},
+  \bibinfo{author}{Brinkmann, J.}, \bibinfo{author}{a.~Frieman, J.},
+  \bibinfo{author}{Gunn, J.E.}, \bibinfo{author}{Lupton, R.H.},
+  \bibinfo{author}{Nichol, R.C.}, \bibinfo{author}{Percival, W.J.},
+  \bibinfo{author}{Schneider, D.P.}, \bibinfo{author}{a.~Skibba, R.},
+  \bibinfo{author}{a.~Strauss, M.}, \bibinfo{author}{Tegmark, M.},
+  \bibinfo{author}{York, D.G.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Galaxy {{Clustering}} in the {{Completed Sdss
+  Redshift Survey}}: The {{Dependence}} on {{Color}} and {{Luminosity}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{736},
+  \bibinfo{pages}{59--59}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/736/1/59}.
+%Type = Article
+\bibitem[{Zehavi et~al.(2005)Zehavi, Zheng, Weinberg, Frieman, Berlind,
+  Blanton, Scoccimarro, Sheth, Strauss, Kayo, Suto, Fukugita, Nakamura,
+  Bahcall, Brinkmann, Gunn, Hennessy, Ivezi{\'c}, Knapp, Loveday, Meiksin,
+  Schlegel, Schneider, Szapudi, Tegmark, Vogeley and York}]{Zehavi2005}
+\bibinfo{author}{Zehavi, I.}, \bibinfo{author}{Zheng, Z.},
+  \bibinfo{author}{Weinberg, D.H.}, \bibinfo{author}{Frieman, J.A.},
+  \bibinfo{author}{Berlind, A.A.}, \bibinfo{author}{Blanton, M.R.},
+  \bibinfo{author}{Scoccimarro, R.}, \bibinfo{author}{Sheth, R.K.},
+  \bibinfo{author}{Strauss, M.A.}, \bibinfo{author}{Kayo, I.},
+  \bibinfo{author}{Suto, Y.}, \bibinfo{author}{Fukugita, M.},
+  \bibinfo{author}{Nakamura, O.}, \bibinfo{author}{Bahcall, N.A.},
+  \bibinfo{author}{Brinkmann, J.}, \bibinfo{author}{Gunn, J.E.},
+  \bibinfo{author}{Hennessy, G.S.}, \bibinfo{author}{Ivezi{\'c}, {\v Z}.},
+  \bibinfo{author}{Knapp, G.R.}, \bibinfo{author}{Loveday, J.},
+  \bibinfo{author}{Meiksin, A.}, \bibinfo{author}{Schlegel, D.J.},
+  \bibinfo{author}{Schneider, D.P.}, \bibinfo{author}{Szapudi, I.},
+  \bibinfo{author}{Tegmark, M.}, \bibinfo{author}{Vogeley, M.S.},
+  \bibinfo{author}{York, D.G.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{The {{Luminosity}} and {{Color Dependence}} of the
+  {{Galaxy Correlation Function}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{630},
+  \bibinfo{pages}{1--27}.
+\newblock \DOIprefix\doi{10.1086/431891}.
+%Type = Article
+\bibitem[{Zemp et~al.(2011)Zemp, Gnedin, Gnedin and Kravtsov}]{Zemp2011}
+\bibinfo{author}{Zemp, M.}, \bibinfo{author}{Gnedin, O.Y.},
+  \bibinfo{author}{Gnedin, N.Y.}, \bibinfo{author}{Kravtsov, A.V.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{On {{Determining The Shape Of Matter
+  Distributions}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal Supplement Series}
+  \bibinfo{volume}{197}, \bibinfo{pages}{30--30}.
+\newblock \DOIprefix\doi{10.1088/0067-0049/197/2/30}.
+%Type = Article
+\bibitem[{Zentner(2007)}]{Zentner2007}
+\bibinfo{author}{Zentner, A.R.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{The {{Excursion Set Theory}} of {{Halo Mass
+  Functions}}, {{Halo Clustering}}, and {{Halo Growth}}}.
+\newblock \bibinfo{journal}{International Journal of Modern Physics D}
+  \bibinfo{volume}{16}, \bibinfo{pages}{763--815}.
+\newblock \DOIprefix\doi{10.1142/S0218271807010511}.
+%Type = Article
+\bibitem[{Zhao et~al.(2009)Zhao, Jing, Mo and B{\"o}rner}]{Zhao2009}
+\bibinfo{author}{Zhao, D.H.}, \bibinfo{author}{Jing, Y.P.},
+  \bibinfo{author}{Mo, H.J.}, \bibinfo{author}{B{\"o}rner, G.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{{ACCURATE UNIVERSAL MODELS FOR THE MASS ACCRETION
+  HISTORIES AND CONCENTRATIONS OF DARK MATTER HALOS}}}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{707},
+  \bibinfo{pages}{354--369}.
+\newblock \DOIprefix\doi{10.1088/0004-637X/707/1/354}.
+%Type = Article
+\bibitem[{Zhao et~al.(2003)Zhao, Mo, Jing and Borner}]{Zhao2003}
+\bibinfo{author}{Zhao, D.H.}, \bibinfo{author}{Mo, H.J.},
+  \bibinfo{author}{Jing, Y.P.}, \bibinfo{author}{Borner, G.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{The growth and structure of dark matter haloes}.
+\newblock \bibinfo{journal}{Monthly Notices of the Royal Astronomical Society}
+  \bibinfo{volume}{339}, \bibinfo{pages}{12--24}.
+\newblock \DOIprefix\doi{10.1046/j.1365-8711.2003.06135.x}.
+%Type = Article
+\bibitem[{Zheng(2004)}]{Zheng2004}
+\bibinfo{author}{Zheng, Z.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Interpreting the {{Observed Clustering}} of {{Red
+  Galaxies}} at z\textasciitilde 3}.
+\newblock \bibinfo{journal}{The Astrophysical Journal} \bibinfo{volume}{610},
+  \bibinfo{pages}{61--68}.
+\newblock \DOIprefix\doi{10.1086/421542}.
+%Type = Misc
+\bibitem[{Zheng et~al.(2005)Zheng, Berlind, Weinberg, Benson, Baugh, Frenk,
+  Katz, Lacey, Cole and Dave}]{Zheng2005}
+\bibinfo{author}{Zheng, Z.}, \bibinfo{author}{Berlind, A.A.},
+  \bibinfo{author}{Weinberg, D.H.}, \bibinfo{author}{Benson, A.J.},
+  \bibinfo{author}{Baugh, C.M.}, \bibinfo{author}{Frenk, C.S.},
+  \bibinfo{author}{Katz, N.}, \bibinfo{author}{Lacey, C.G.},
+  \bibinfo{author}{Cole, S.}, \bibinfo{author}{Dave, R.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Theoretical {{Models}} of the {{Halo Occupation
+  Distribution}}: {{Separating Central}} and {{Satellite Galaxies}}}.
+%Type = Article
+\bibitem[{Zheng and Guo(2015)}]{Zheng2015}
+\bibinfo{author}{Zheng, Z.}, \bibinfo{author}{Guo, H.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Accurate and {{Efficient Halo}}-based {{Galaxy
+  Clustering Modelling}} with {{Simulations}}}.
+\newblock \bibinfo{journal}{Arxiv e-prints} .
+
+\end{thebibliography}
