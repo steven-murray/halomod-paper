@@ -1,4 +1,0 @@
-\begin{Verbatim}[commandchars=\\\{\}]
-\PYG{n}{bias} \PYG{o}{=} \PYG{n}{make\PYGZus{}colossus\PYGZus{}bias}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}comparat17\PYGZdq{}}\PYG{p}{)}
-\PYG{n}{model} \PYG{o}{=} \PYG{n}{TracerHaloModel}\PYG{p}{(}\PYG{n}{bias\PYGZus{}model}\PYG{o}{=}\PYG{n}{bias}\PYG{p}{)}
-\end{Verbatim}
