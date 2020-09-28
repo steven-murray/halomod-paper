@@ -1,6 +1,8 @@
 \listfiles
 \documentclass[5p,aas_macros]{elsarticle}
 
+\usepackage{array}
+\usepackage{lineno}
 \usepackage{xcolor}
 \usepackage{lineno}
 \usepackage[colorlinks=true,urlcolor=black,linkcolor=blue,citecolor=blue]{hyperref}
@@ -13,8 +15,6 @@
 \usepackage{layouts}
 \usepackage{subfig}
 \usepackage{microtype}
-%\usepackage{subcaption}
-%\usepackage{graphicx}
 
 \input{citation_fix}
 
@@ -1518,6 +1518,7 @@ We refer the reader to \cite{Murray2013a} for a table of included fitting functi
 % \bd{I still think it's a somewhat iffy thing to do because of the steep fall-off of the mass function at high mass. My guess is that the solution will essentially suffer from strong Eddington bias, i.e., that convolving one mass function with a no-scatter mdef relation will lead to a MF that differs from the true one for the second distribution. On the other hand, if it could be done, it'd be very powerful.
 % My first test would be to take a Tinker+08 MF for, say, 500c, and convolve it with the converion to 200m (so fairly extreme thresholds). Does it come out at all like the Tinker+ MF for 200m?}
 
+
 \subsubsection{Bias}
 \label{sec:halomod:components:bias}
 Though the majority of bias functions are specified in `universal' form with respect to the peak-height, there are some older functions that explicitly require cosmology and are specified in terms of a scaled mass, $m/M_\star$. We thus provide access to these quantities, which may also serve to enable more fine-tuned models than possible with pure peak-background split arguments in the future. 
@@ -1551,10 +1552,10 @@ Note that \halomod\ defines an explicit interface with \textsc{colossus}, enabli
 \begin{table*} 
 \centering
 
-\begin{tabu}{X[1.4l]X[1.2l]X[2.6l]X[1.9l]X[0.6l]}
-\toprule[0.05cm]
+\begin{tabular}{>{\raggedright}m{3cm} >{\raggedright}m{2.6cm} >{\raggedright}m{5.2cm} >{\raggedright\arraybackslash}m{4.2cm} >{\raggedright\arraybackslash}m{1.2cm}}
+\toprule
  \textsc{Ref} & \textsc{Name} & \textsc{Formula} & \textsc{Params} & \textsc{hmf}\\
- \toprule[0.05cm]
+\toprule
  
  \citet{Mo1996} & \texttt{Mo96} & $\displaystyle 1 + \frac{\nu - 1}{\delta_c}$ &  & \texttt{PS} \\
  \midrule
@@ -1584,8 +1585,8 @@ $\displaystyle \hphantom{1 +}-\left.\frac{(a\nu)^c}{(a\nu)^c + b(1-c)(1-c/2)}\ri
  \citet{Tinker2010} & \texttt{Tinker10PBsplit} & $\displaystyle 1 + \frac{\gamma\nu-(1+2\eta)}{\delta_c} + \frac{2\phi/\delta_c}{1+(\beta^2\nu)^\phi}$ & Same as $f_\text{Tinker10}$ & \texttt{Tinker10} \\
  \midrule
  & \texttt{UnityBias} & $b(\nu) = 1$ & & \\
- \bottomrule[0.05cm]
- \end{tabu}
+ \bottomrule
+ \end{tabular}
  \caption[Summary of included \texttt{Bias} models]{Summary of included \texttt{Bias} models. Note that the fit of \texttt{Manera10} is dependent on Friends-of-Friends linking length and redshift, and we give the result for $l = 0.2$ at $z=0$.}
  
 \label{tab:models_bias}
@@ -1680,14 +1681,13 @@ which for the Moore profile with $\alpha=3/2$ yields
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\begin{onecolumn}
 \begingroup
 \small
 \begin{table*} 
-\begin{tabu}{X[1l]X[3.5l]} 
-\toprule[0.05cm]
+\begin{tabular}{ m{4cm} m{12cm}} 
+\toprule
 \textsc{Name \& Refs.} & \textsc{Formulae} \\
-\midrule[0.05cm]
+\toprule
 \texttt{NFW} & $\displaystyle f(x) = x^{-1}(1+x)^{-2}$ \\
 \citet{Navarro1997} & $\displaystyle  h(c) = \frac{c}{1+c} + \ln(1+c)$ \\
 \citet{Sheth2001a} & $\displaystyle    p(\kappa,c) = \cos (\kappa) \left(\text{Ci}(c \kappa+\kappa)-\text{Ci}(\kappa)\right) 
@@ -1714,7 +1714,8 @@ which for the Moore profile with $\alpha=3/2$ yields
 \citet{Sheth2001a} & $\displaystyle   p(\kappa) = \frac{1}{4} \left[-|\kappa| (2 \text{Ci}|\kappa| \sin|\kappa|+\pi\cos(\kappa)) \right.
     \left.+2\kappa \text{Si}(\kappa) \cos (\kappa)+2\right]$ \\ 
   & $\displaystyle p(\kappa,c) =  1/2 - \frac{\sin (c \kappa)+(c+1)
-   \kappa \cos (c \kappa)}{2\kappa(c+1)^2} 
+   \kappa \cos (c \kappa)}{2\kappa(c+1)^2} $ \\
+& $\displaystyle \ \ \ \ \ \ \ \ \ 
    + \frac{k}{2} \left[\sin (\kappa) (\text{Ci}(c \kappa+\kappa)-\text{Ci}(\kappa)) \right.
    \left. +\cos (\kappa) (\text{Si}(\kappa)-\text{Si}(c \kappa+\kappa))\right] $\\
   & $\displaystyle  l(x) = \frac{16\pi(h_1 - h_2)}{x^4 * (2 + x)^4} $\\
@@ -1740,8 +1741,8 @@ which for the Moore profile with $\alpha=3/2$ yields
 \texttt{Einasto} & $\displaystyle f(x|\alpha) = \exp\left(-\frac{2(x^\alpha - 1)}{\alpha}\right)$\\
 \citet{Einasto1965} & $\displaystyle  h(c|\alpha) = \frac{e^{2 / \alpha}}{\alpha} \left(\frac{2}{\alpha}\right)^{-3/\alpha} \Gamma\left(\frac{3}{\alpha}, \frac{2 c^\alpha}{\alpha}\right)$\\
 
-\bottomrule[0.05cm]
-\end{tabu}
+\bottomrule
+\end{tabular}
 \caption[Summary of included \texttt{Profile} models]{Summary of included \texttt{Profile} models. Note that for $p$ and $l$, functions explicitly including $c$ are the usual profiles truncated at $r_\Delta$, whereas those that do not explicitly include $c$ are not truncated (these are rather unhelpful in terms of the HM). $G$ is the Meijer-$G$ function. The functions $T_i$ in the NFW definition are found in the text, Eq. \ref{eq:nfw_t}.}
 \label{tab:models_profile}
 \end{table*}
