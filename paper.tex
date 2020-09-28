@@ -1,12 +1,17 @@
 \listfiles
 \documentclass[5p,aas_macros]{elsarticle}
 
+\usepackage{ifthen}
+
+\newboolean{useminted}
+\setboolean{useminted}{false}
+
 \usepackage{array}
 \usepackage{lineno}
 \usepackage{xcolor}
 \usepackage{lineno}
 \usepackage[colorlinks=true,urlcolor=black,linkcolor=blue,citecolor=blue]{hyperref}
-\usepackage{minted}
+\ifthenelse{\boolean{useminted}}{\usepackage{minted}}{}
 \usepackage{longtable,booktabs,tabu}
 \usepackage{amsmath}
 \usepackage{multirow}
@@ -15,6 +20,7 @@
 \usepackage{layouts}
 \usepackage{subfig}
 \usepackage{microtype}
+\usepackage{listings}
 
 \input{citation_fix}
 
@@ -42,15 +48,42 @@
 \def\apj{ApJ}
 \def\mnras{MNRAS}
 
-\usemintedstyle{friendly}
+\ifthenelse{\boolean{useminted}}{%
+	\usemintedstyle{friendly}
+	
+	\setminted[python]{
+	    frame=leftline,
+	    framesep=2mm,
+	    baselinestretch=1.2,
+	    %bgcolor=lightgray,
+	    fontsize=\small,
+	}
+}{}
 
-\setminted[python]{
-    frame=leftline,
-    framesep=2mm,
-    baselinestretch=1.2,
-    %bgcolor=lightgray,
-    fontsize=\small,
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	%backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\small,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbersep=5pt,     
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
 }
+\lstset{style=mystyle}
+
 
 \journal{Astronomy and Computing}
 
@@ -941,28 +974,43 @@ To demonstrate the intuitive usage of \halomod, it is perhaps most useful to giv
 Necessarily, the following example is both simple and rather arbitrary, but it should give a flavour of the usage of \halomod.
 
 To create a new halo model class (this one will support galaxy power spectra and correlation functions) does not require passing any parameters, as all parameters have reasonable defaults:
-\begin{minted}{python}
-import halomod as hm
-tr = hm.TracerHaloModel()
-\end{minted}
-
+%\ifthenelse{\boolean{useminted}}{%
+%	\begin{minted}{python}
+%	import halomod as hm
+%	tr = hm.TracerHaloModel()
+%	\end{minted}
+%}{%
+	\begin{lstlisting}[language=Python]
+	import halomod as hm
+	tr = hm.TracerHaloModel()
+	\end{lstlisting}
+%}
 After creating the model, all of the relevant quantities may be accessed as attributes (in fact, they are not simple attributes that have been pre-computed, they are calculated lazily on first access and then cached).
 Thus, we can plot the auto-correlation function of galaxies, for example; 
-\begin{minted}{python}
+%\begin{minted}{python}
+%plt.loglog(tr.r, tr.corr_auto_tracer, label='z=0')
+%\end{minted}
+\begin{lstlisting}[language=Python]
 plt.loglog(tr.r, tr.corr_auto_tracer, label='z=0')
-\end{minted}
+\end{lstlisting}
 To update a parameter, one can simply set it on the instance, so for example to change the redshift and plot the new correlation function:
-\begin{minted}{python}
-tr.z = 1
-plt.loglog(tr.r, tr.corr_auto_tracer, label='z=1')
-\end{minted}
+%\begin{minted}{python}
+%
+%\end{minted}
+\begin{lstlisting}[language=Python]
+	tr.z = 1
+	plt.loglog(tr.r, tr.corr_auto_tracer, label='z=1')
+\end{lstlisting}
 Updating any parameter immediately invalidates the cache of quantities that depend on it, and thus that quantity is recalculated (but not quantities on which it depends that don't themselves depend on the changed parameter -- like the cosmological transfer function in this example). 
 
 Every sub-component of the halo model (see the following sections) allows its parameters to be changed directly from this top-level interface. So, if we wanted to update the $M_{\rm min}$ parameter of the halo model, we could simply do
-\begin{minted}{python}
+%\begin{minted}{python}
+%
+%\end{minted}
+\begin{lstlisting}[language=Python]
 tr.hod_params = {"M_min": 8.0}
 plt.loglog(tr.r, tr.corr_auto_tracer, label='Mmin=8')
-\end{minted}
+\end{lstlisting}
 After applying relevant axis labels, we then produce Fig. \ref{fig:toy_example}.
 
 \begin{figure}
@@ -1048,10 +1096,13 @@ We also adopt the open-source \textsc{hankel}\footnote{\url{https://github.com/s
 
 We also provide extensive interoperability with the \textsc{Colossus} code\footnote{\url{http://www.benediktdiemer.com/code/colossus/}} \citep{Diemer2018}, by providing component constructors for models contained in \textsc{Colossus}. 
 In practice, this means that the user can invoke something like the following
-\begin{minted}{python}
-bias = make_colossus_bias("comparat17")
-model = TracerHaloModel(bias_model=bias)
-\end{minted}
+%\begin{minted}{python}
+%
+%\end{minted}
+\begin{lstlisting}[language=Python]
+	bias = make_colossus_bias("comparat17")
+	model = TracerHaloModel(bias_model=bias)
+\end{lstlisting}
 and get the full range of functionality from the \textsc{Colossus}-defined bias model within the \textsc{halomod} framework (even setting of model-dependent parameters).
 At the time of publishing, these constructors are defined for bias and halo concentration models, as these models are part of the core functionality of \textsc{Colossus} and thus there is a real chance that the models may exist in \textsc{Colossus} and not \textsc{halomod}. 
 
@@ -1600,12 +1651,18 @@ $\displaystyle \hphantom{1 +}-\left.\frac{(a\nu)^c}{(a\nu)^c + b(1-c)(1-c/2)}\ri
 We developed a systematic representation of two-param\-eter universal halo profiles in \S\ref{sec:profilestheory}. Our implementation follows this development closely. There is a richness of predictions available given just the basic profile shape, which makes the class structure of the \verb|Profile| component extremely valuable. We have not yet implemented several generic predictions that may be added in future versions, such as the gravitational potential profile.
 
 The \verb|Profile| component provides a wide range of derived quantities, accessible with a simple definition of the profile shape. To make this more explicit, suppose that one wished to implement a ``cored" NFW, such that the inner density was a constant $\rho_s$. The minimum code that the user must write (remember, this is user-side code, not touching the \halomod\ source) would be:
-\begin{minted}{python}
+%\begin{minted}{python}
+%from halomod.profiles import Profile
+%class CoredNFW(Profile):
+%    def f(self,x):
+%        return 1./(1 + x*(1+x)**2)
+%\end{minted}
+\begin{lstlisting}[language=Python]
 from halomod.profiles import Profile
 class CoredNFW(Profile):
-    def f(self,x):
-        return 1./(1 + x*(1+x)**2)
-\end{minted}
+	def f(self,x):
+		return 1./(1 + x*(1+x)**2)
+\end{lstlisting}
 The class itself can then be used directly or passed to any relevant \framework, and all of the necessary quantities will be available. For increased efficiency, it may also be beneficial to analytically define $p(\kappa,c)$, $h(c)$ and even $l(x,c)$ if available. If not specified, these quantities are evaluated via numerical integration (except for $l(x,c)$ -- it is usually more efficient to use an analytic Fourier-transform $u^2(k|m)$ and then use a Hankel transform on the result).
 
 We define our implemented profiles in Table \ref{tab:models_profile}, and show them in and we note that for each, analytic forms have been given wherever possible to improve efficiency. In general it is non-trivial to produce analytic forms for the self-convolution. Fortunately, this can be achieved with the popular NFW profile \citep{Sheth2001a}, as we show in Table \ref{tab:models_profile}. The associated forms for the $T_i$ are
@@ -2044,44 +2101,79 @@ The appropriate likelihood is thus a simple $\chi^2$ between the mock and model 
 
 We use \textsc{emcee} to perform the actual Bayesian inference in this example, though it should be clear how to adapt the likelihood to other frameworks. We can write a fairly generic likelihood function:
 
-\begin{minted}{python}
+%\begin{minted}{python}
+%def log_prob(
+%    param_values: np.ndarray, 
+%    param_names: List[str], 
+%    data: np.ndarray,
+%    model: TracerHaloModel, 
+%    derived: Optional[Tuple[str]]=()
+%):
+%    # Pack parameters into a dict
+%    params = dict(zip(param_names, param_values))
+%    
+%    # Allow for simple bounded flat priors.
+%    bounds = bounds or {}
+%    for key, val in params.items():
+%        bound = bounds.get(key, (-np.inf, np.inf))
+%        if not bound[0] < val < bound[1]:
+%            return -np.inf, []
+%            
+%    # Update model with all fitting parameters 
+%    params = flat_to_nested_dict(params)
+%    model.update(**params)
+%
+%    # Get arbitrary derived data
+%    derived = [getattr(model, d) for d in derived]
+%
+%    # Calculate chi^2 likelihood
+%    logl = chi_square(
+%        model=model.corr_auto_tracer, 
+%        data=data, 
+%        sigma=0.2 * np.abs(model.corr_auto_tracer)
+%    )
+%    
+%    # Return derived to make emcee "blobs"
+%    return logl, derived
+%\end{minted}
+\begin{lstlisting}[language=Python]
 def log_prob(
-    param_values: np.ndarray, 
-    param_names: List[str], 
-    data: np.ndarray,
-    model: TracerHaloModel, 
-    derived: Optional[Tuple[str]]=()
+	param_values: np.ndarray, 
+	param_names: List[str], 
+	data: np.ndarray,
+	model: TracerHaloModel, 
+	derived: Optional[Tuple[str]]=()
 ):
-    # Pack parameters into a dict
-    params = dict(zip(param_names, param_values))
-    
-    # Allow for simple bounded flat priors.
-    bounds = bounds or {}
-    for key, val in params.items():
-        bound = bounds.get(key, (-np.inf, np.inf))
-        if not bound[0] < val < bound[1]:
-            return -np.inf, []
-            
-    # Update model with all fitting parameters 
-    params = flat_to_nested_dict(params)
-    model.update(**params)
+	# Pack parameters into a dict
+	params = dict(zip(param_names, param_values))
 
-    # Get arbitrary derived data
-    derived = [getattr(model, d) for d in derived]
+	# Allow for simple bounded flat priors.
+	bounds = bounds or {}
+	for key, val in params.items():
+		bound = bounds.get(key, (-np.inf, np.inf))
+		if not bound[0] < val < bound[1]:
+			return -np.inf, []
 
-    # Calculate chi^2 likelihood
-    logl = chi_square(
-        model=model.corr_auto_tracer, 
-        data=data, 
-        sigma=0.2 * np.abs(model.corr_auto_tracer)
-    )
-    
-    # Return derived to make emcee "blobs"
-    return logl, derived
-\end{minted}
+	# Update model with all fitting parameters 
+	params = flat_to_nested_dict(params)
+	model.update(**params)
+	
+	# Get arbitrary derived data
+	derived = [getattr(model, d) for d in derived]
+	
+	# Calculate chi^2 likelihood
+	logl = chi_square(
+		model=model.corr_auto_tracer, 
+		data=data, 
+		sigma=0.2 * np.abs(model.corr_auto_tracer)
+	)
+	
+	# Return derived to make emcee "blobs"
+	return logl, derived
+\end{lstlisting}
 
 This function contains a reference to another custom function, \verb|flat_to_nested_dict|, whose purpose is to take a dictionary with 
-dot-path keys and convert it to a nested dictionary, so that eg. \mintinline[breaklines]{python}|{'nested.key': 3}| is converted to \mintinline[breaklines]{python}|{'nested': {'key': 3}}|. This makes it possible set arbitrary parameters of components within the \texttt{Tracer\-Halo\-Model}, as we shall see. 
+dot-path keys and convert it to a nested dictionary, so that eg. \texttt{\{'nested.key': 3\}} is converted to \texttt{\{'nested': \{'key': 3\}\}}. This makes it possible set arbitrary parameters of components within the \texttt{Tracer\-Halo\-Model}, as we shall see. 
 
 Furthermore, notice that arbitrary derived data is able to be extracted due to the consistent API of the \framework, in which every quantity is accessed as an attribute. 
 Due to the efficient caching system (cf. \S\ref{sec:halomod:overview:efficiency} and \ref{app:caching}), the order in which quantities are accessed is irrelevant, and only the quantities that are required are actually calculated.
@@ -2103,56 +2195,97 @@ As this is a toy examples, explicit convergence tests are not performed as they 
 Our mock data is created with a default \texttt{Tracer\-Halo\-Model} set at a redshift of $z=0.2$, and using the transfer model of \citet{Eisenstein1998}. The HOD model is \verb|Zehavi05| (cf. Table \ref{tab:models_hod}), with $M_{\rm min} = 10^{12}$, $M_1 = 10^{12.8}$ and $\alpha = 1.05$.
 
 Constraining the parameters is simple. We construct the sampler like so:
-\begin{minted}{python}
+%\begin{minted}{python}
+%sampler = emcee.EnsembleSampler(
+%    nwalkers = 100,
+%    ndim = 3,
+%    log_prob_fn = log_prob,
+%    kwargs = {
+%        'param_names': [
+%            'hod_params.M_min', 
+%            'hod_params.M_1', 
+%            'hod_params.alpha'
+%        ],  
+%        'data': (mock_data, mock_ngal), 
+%        'model': model,  
+%        'derived': [
+%            'satellite_fraction', 
+%            'mean_tracer_den',
+%            'bias_effective_tracer',
+%            'corr_auto_tracer'
+%        ],
+%    },
+%    blobs_dtype=[
+%        ("sat_frac", float), 
+%        ("tracer_den", float), 
+%        ("bias_effective_tracer", float),
+%        ("corr_auto_tracer", (float, len(mock_data)))
+%    ]
+%)
+%\end{minted}
+\begin{lstlisting}[language=Python]
 sampler = emcee.EnsembleSampler(
-    nwalkers = 100,
-    ndim = 3,
-    log_prob_fn = log_prob,
-    kwargs = {
-        'param_names': [
-            'hod_params.M_min', 
-            'hod_params.M_1', 
-            'hod_params.alpha'
-        ],  
-        'data': (mock_data, mock_ngal), 
-        'model': model,  
-        'derived': [
-            'satellite_fraction', 
-            'mean_tracer_den',
-            'bias_effective_tracer',
-            'corr_auto_tracer'
-        ],
-    },
-    blobs_dtype=[
-        ("sat_frac", float), 
-        ("tracer_den", float), 
-        ("bias_effective_tracer", float),
-        ("corr_auto_tracer", (float, len(mock_data)))
-    ]
-)
-\end{minted}
-and then create the initial positions and sample for 10000 iterations:
-\begin{minted}{python}
-initialpos = np.array([
-    fiducial_model.hod.params['M_min'], 
-    fiducial_model.hod.params['M_1'],
-    fiducial_model.hod.params['alpha']
-]) + 1e-4 * np.random.normal(
-    size=(sampler.nwalkers, sampler.ndim)
-)
+	nwalkers = 100,
+	ndim = 3,
+	log_prob_fn = log_prob,
+	kwargs = {
+		'param_names': [
+			'hod_params.M_min', 
+			'hod_params.M_1', 
+			'hod_params.alpha'
+		],  
+		'data': (mock_data, mock_ngal), 
+		'model': model,  
+		'derived': [
+			'satellite_fraction', 
+			'mean_tracer_den',
+			'bias_effective_tracer',
+			'corr_auto_tracer'
+		],
+	},
+	blobs_dtype=[
+		("sat_frac", float), 
+		("tracer_den", float), 
+		("bias_effective_tracer", float),
+		("corr_auto_tracer", (float, len(mock_data)))
+	]
+	)
+\end{lstlisting}
 
+and then create the initial positions and sample for 10000 iterations:
+%\begin{minted}{python}
+%initialpos = np.array([
+%    fiducial_model.hod.params['M_min'], 
+%    fiducial_model.hod.params['M_1'],
+%    fiducial_model.hod.params['alpha']
+%]) + 1e-4 * np.random.normal(
+%    size=(sampler.nwalkers, sampler.ndim)
+%)
+%
+%sampler.run_mcmc(initialpos, nsteps=10000)
+%\end{minted}
+\begin{lstlisting}[language=Python]
+initialpos = np.array([
+	fiducial_model.hod.params['M_min'], 
+	fiducial_model.hod.params['M_1'],
+	fiducial_model.hod.params['alpha']
+]) + 1e-4 * np.random.normal(
+	size=(sampler.nwalkers, sampler.ndim)
+)
+	
 sampler.run_mcmc(initialpos, nsteps=10000)
-\end{minted}
+\end{lstlisting}
 Note that in the setup of the \verb|EnsembleSampler| we have specified the parameters we wish to constrain simply by passing a list of dot-pathed names.
 The first part of the name refers to the \parameter\ name in the \framework\ that we would like to update. In this case, \verb|hod_params| is itself a dictionary of parameters for the HOD, and so the second part of the dot-path is the name of the parameter within that dictionary. This makes it possible to constrain any continuous parameter defined at any level of the framework.
 
-Note also that the \verb|model| variable is itself a \texttt{Tracer\-Halo\-Model} instance, cloned from the original fiducial model from which we created the \verb|mock_data| using the simple command \mintinline[breaklines, breakafter=_]{python}|model = fid_model.clone()|. 
+Note also that the \verb|model| variable is itself a \texttt{Tracer\-Halo\-Model} instance, cloned from the original fiducial model from which we created the \verb|mock_data| using the simple command \texttt{model = fid\_model.clone()}. 
 This \verb|model| is mutable and is internally updated in the \verb|log_prob| function, so it is useful to keep the original fiducial model untouched.
 
 After removing burnin and thinning by every $5^{th}$ sample to reduce correlations, we can make Fig. \ref{fig:example1_corner}, which shows that that parameters were recovered with moderate accuracy. 
 Note that in this ``corner plot'', we have also shown the joint posteriors of the three derived scalars -- the satellite fraction, the mean galaxy density and the linear galaxy bias.  
 
-Furthermore, Fig \ref{fig:example_resids} shows the posterior 68\%  percentile range of the correlation function, along with the ratio of the mock data to the median. The posterior of the model $\xi(r)$ is here easily obtained from the output sampler: \mintinline[breaklines]{python}|sampler.get_blobs(flat=True)['corr_auto_tracer']|. Notice that the residuals are noise-like, as is expected from this toy model.
+Furthermore, Fig \ref{fig:example_resids} shows the posterior 68\%  percentile range of the correlation function, along with the ratio of the mock data to the median. The posterior of the model $\xi(r)$ is here easily obtained from the output sampler: \texttt{sampler.get\_blobs(flat=True)['corr\_auto\_tracer']}. \\
+Notice that the residuals are noise-like, as is expected from this toy model.
 
 \begin{figure*}
     \centering
