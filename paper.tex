@@ -267,7 +267,7 @@ The presentation of \thm\ completes our vision for \halomod\ with (v) a tool for
 
 \begin{figure*}
     \centering
-    \includegraphics[width=\linewidth]{figures/thehalomod_app_schematic.pdf} 
+    \includegraphics[width=\linewidth]{thehalomod_app_schematic.pdf} 
     \caption{\textsc{TheHaloMod} in action. The main page (right panel) shows the currently computed models, with a selection of quantities to plot, and a number of actions available for each model (edit/clone/report bug/delete). The input form (two insets on the left) provides a wide range of options, including all of the components presented throughout this paper. Each component is defined in its own tab. Those shown here are cosmology and the HOD model.} \label{fig:webpage-image}
 \end{figure*}
 
@@ -427,7 +427,7 @@ In fact, all curves (except that of \citet{Bond1984}) are within $\sim 10\%$ ove
 
 \begin{figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/transfer_models.pdf}
+  \includegraphics[width=\linewidth]{transfer_models.pdf}
   \caption[Comparison of transfer function models]{A selection of transfer function models, shown as linear power spectra, including analytic approximations \citep{Bond1984,Bardeen1986,Eisenstein1998} and Boltzmann solutions. Details for each model (referenced to the alias given in the legend) can be found in Table \ref{tab:models_transfer}. The general shape is reproduced in each case, with details of baryon acoustic oscillations differing. In the bottom panel, we show the relative fraction compared to the CAMB transfer function, which renders all models without baryons as having oscillations on the acoustic scales.}
   \label{fig:power}
 \end{figure}
@@ -524,7 +524,7 @@ Figure \ref{fig:mfs} shows the HMF for four of the fits available in \textsc{hal
 
 \begin{figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/hmf_models.pdf}
+  \includegraphics[width=\linewidth]{hmf_models.pdf}
   \caption[Several HMF fits]{Seven HMFs from the literature, including the `original' form of \protect\citet[][`PS']{Press1974}, motivated by spherical collapse, and \textsc{SMT} motivated by ellipsoidal collapse from \protect\citet{Sheth2001}).}
   \label{fig:mfs}
 \end{figure}
@@ -535,7 +535,7 @@ Figure \ref{fig:mfs} shows the HMF for four of the fits available in \textsc{hal
 
 % \begin{figure}
 %   \centering
-%   \includegraphics[width=\linewidth]{figures/corr_mffits.pdf}
+%   \includegraphics[width=\linewidth]{corr_mffits.pdf}
 %   \caption[Effect of the HMF fit on the two-point correlation function]{Effect of the varying HMF fits on the two-point correlation function, where the mean galaxy density is matched in each case by shifting the HOD parameter $M_\text{min}$, where $M_\text{min} = 10^{11}h^{-1}M_\odot$ for the SMT function. The variation is reduced to $<10$\% for fits other than PS.}
 %   \label{fig:mf_fit_corr}
 % \end{figure}
@@ -587,7 +587,7 @@ In figure \ref{fig:bias_functions} we show a sample of linear scale-independent 
 
 \begin{figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/bias_models.pdf}
+  \includegraphics[width=\linewidth]{bias_models.pdf}
   \caption[Several bias functions from the literature]{Several linear bias functions from the literature.Most functions, including \protect\citet{Mo1996}, \protect\citet{Sheth1999}, \protect\citet{Sheth2001} and those with the same form \protect\citep{Mandelbaum2005,Tinker2005} have high-mass asymptotic behaviour of $b \propto \nu$. The (default) form of \protect\citet{Tinker2010} is an empirical fit with an arbitrarily chosen form, and has a high-mass asymptotic limit of $b \propto  \nu^{1.2}$. The models plotted in dotted lines are from \textsc{colossus}, called by \halomod\ using its explicit interface}
   \label{fig:bias_functions}
 \end{figure}
@@ -850,7 +850,7 @@ Note that the recent model of \cite{Garcia2020}, in which halo exclusion is incl
 
 \begin{figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/halo_exclusion.pdf}
+  \includegraphics[width=\linewidth]{halo_exclusion.pdf}
   \caption[Effect of halo exclusion]{Effects of various halo exclusion models around the transition region. Solid lines are the full $\xi_{gg}(r)$, while the dashed lines show the 2-halo term. In both cases where the halo-centre power spectrum is modified (brown and pink curves), the halo exclusion is not performed. }
   \label{fig:halo_exclusion}
 \end{figure}
@@ -908,7 +908,7 @@ central and satellite galaxies. We present a summary of those included in \texts
 
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{figures/hod_models.pdf} 
+\includegraphics[width=\linewidth]{hod_models.pdf} 
 \caption[Halo occupation for several parameterisations]{Total halo occupation for several parameterisations, highlighting the core similarities and differences between the models. Note that the central condition is false for the models shown.}
 \label{fig:hod}	
 \end{figure}
@@ -1046,7 +1046,7 @@ After applying relevant axis labels, we then produce Fig. \ref{fig:toy_example}.
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth,trim={0 0.2cm 0 0},clip=true]{figures/toy_example.pdf}
+    \includegraphics[width=\linewidth,trim={0 0.2cm 0 0},clip=true]{toy_example.pdf}
     \caption{Simple example of galaxy auto-correlation functions produced with three inputs (two different redshifts and a different HOD model).
     Notice the BAO peak at $\sim100 h^{-1}{\rm Mpc}$. Code to produce the figure is presented in \S\ref{sec:halomod:overview:usage}.}
     \label{fig:toy_example}
@@ -1383,7 +1383,7 @@ The various transfer models included in \textsc{hmf} are summarized in Table \re
 
 % \begin{figure}
 %   \centering
-%   \includegraphics[width=\linewidth]{figures/transfer_fits.pdf}
+%   \includegraphics[width=\linewidth]{transfer_fits.pdf}
 %   \caption[Comparison of transfer function models, normalised at large scales]{All transfer function models in \textsc{halomod}. In each case, the transfer function is normalised to unity at very large scales. The general shape is reproduced in each case, with details of the BAO differing. The oldest fit, of \protect\citet{Bond1984}, fails to reproduce the break scale, though this is likely due to being fit to a differing cosmology. \bd{Why is this figure necessary? Doesn't it show the same as Figure 1?} }
 %   \label{fig:transfer}
 % \end{figure}
@@ -1457,7 +1457,7 @@ See Fig. \ref{fig:mass_conversion} for a comparison of mass and concentration fo
 
 \begin{figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/mass_conversion.pdf}
+  \includegraphics[width=\linewidth]{mass_conversion.pdf}
   \caption[Mass conversion]{Conversion of mass and concentration between different halo definitions. Top-panel shows ratio of converted mass to input mass, as a function of input mass. Different colors represent different halo definitions. Bottom panel shows ratio of converted
   concentration to input concentration, as a function of input mass.
   Input mass definition is 200m. Note that the trend with increasing overdensity is to decrease both the mass and concentration. 
@@ -1495,7 +1495,7 @@ Table \ref{tab:models_window} summarises the window functions included in \texts
 
 \begin{figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/filter_models.pdf}
+  \includegraphics[width=\linewidth]{filter_models.pdf}
   \caption[Mass variance using three different filters]{The mass variance determined by the three most common window functions. The normalisation of the power spectrum in each case uses the \texttt{TopHat} filter, for which $\sigma_8$ is defined.}
   \label{fig:filter_sigma}
 \end{figure}
@@ -1710,7 +1710,7 @@ We define our implemented profiles in Table \ref{tab:models_profile}, and show t
 
 \begin{figure*}
     \centering
-    \includegraphics{figures/profile_models.pdf}
+    \includegraphics{profile_models.pdf}
     \caption{Illustration of the halo profile models implemented in \texttt{halomod}. Left panel shows the profile as a function of radius at $m=10^{12} h^{-1}M_\odot$, and the right panel shows the profile as a function of mass at $r = 0.03 h^{-1}$Mpc. The general trends are similar, though the inner and outer slopes vary between models. The generalized NFW shown here has $\alpha=1.5$.}
     \label{fig:profiles}
 \end{figure*}
@@ -1862,7 +1862,7 @@ Note that \halomod\ includes an explicit interface for using the excellent suite
 
 \begin{figure}
   \centering
-  \includegraphics[width=\linewidth]{figures/halo_concentration_models.pdf}
+  \includegraphics[width=\linewidth]{halo_concentration_models.pdf}
   \caption[Concentration-mass-redshift relation for various models in the literature]{Illustration of the concentration-mass relations implemented in \halomod, focusing on analytic models (with the exception of the class power-law fit of \cite{Duffy2008}). Models plotted with dotted curves are obtained via the explicit interface with \textsc{colossus}, and are able to be used within the entire halo model framework. }
   \label{fig:concentration}
 \end{figure}
@@ -2320,14 +2320,14 @@ Notice that the residuals are noise-like, as is expected from this toy model.
 
 \begin{figure*}
     \centering
-    \includegraphics[width=\textwidth]{figures/default_corner.pdf}
+    \includegraphics[width=\textwidth]{default_corner.pdf}
     \caption{Corner-plot showing joint posteriors for each of the three HOD parameters, as well as the three derived parameters (satellite fraction, mean galaxy number density and linear galaxy bias). Example code to reproduce this plot is found throughout \S\ref{sec:applications}. }
     \label{fig:example1_corner}
 \end{figure*}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{figures/residuals.pdf}
+    \includegraphics[width=\linewidth]{residuals.pdf}
     \caption{Ratio of mock data to the median posterior of $\xi(r)$. Here, the median posterior is calculated as the median (per $r$-bin) of the posterior \textit{samples} (not the model at the median of the posterior of the parameters). Error-bars shown are 10\% uncertainties as input to the mock data. The orange region is the 68\% central quantile of the posterior. The residuals are noise-like.}
     \label{fig:example_resids}
 \end{figure}
@@ -2452,14 +2452,14 @@ In most cases, the necessary modifications to the example code presented here wi
 
 %  \begin{figure}
 % \centering
-% \includegraphics[width=\linewidth]{figures/typical_triangle.pdf} 
+% \includegraphics[width=\linewidth]{typical_triangle.pdf} 
 % \caption[Marginalised Joint-posteriors for the ``basic" run]{Marginalised joint-posteriors for the basic run, emulating the analysis of B13. Black histograms show the marginalised 1D posterior on each parameter, while black contours show the 2D joint-posteriors, smoothed with a Gaussian KDE. Red dashed contours indicate the 1-$\sigma$ region, when approximated by a bivariate Gaussian distribution, and should correspond to the second black contour perfectly if the true posterior is Gaussian. Blue lines and curves correspond to the result of B13 (the curves show the posterior approximated as a Gaussian).}
 % \label{fig:typical}
 % \end{figure}
 
 %  \begin{figure}
 % \centering
-% \includegraphics[width=\linewidth]{figures/residuals.pdf} 
+% \includegraphics[width=\linewidth]{residuals.pdf} 
 % \caption[Residuals for all fits in example application]{Residuals of all our fits. Data from B13 is shown as blue square markers with errorbars. Each of the fits is shown in a different colour. The only fit that is poor in general is that which had a uniformly varied cosmology. This is probably due to the way in which the `best' fit was chosen: as the mean.}
 % \label{fig:residuals}
 % \end{figure}
@@ -2472,14 +2472,14 @@ In most cases, the necessary modifications to the example code presented here wi
 
 %  \begin{figure*}
 % \centering
-% \includegraphics[width=\linewidth]{figures/with_cosmo_flat_triangle.pdf} 
+% \includegraphics[width=\linewidth]{with_cosmo_flat_triangle.pdf} 
 % \caption[Marginalised joint-posteriors for a run with cosmology free to vary with uniform priors]{Marginalised joint-posteriors for a run with cosmology free to vary with uniform priors. The plot is similar to figure \ref{fig:typical}, but in this case, the blue lines/curves correspond to the best-fit HOD-only case (for the HOD parameters) and to the P15 uncertainties (for cosmological parameters). Noticeably, the cosmological parameters are virtually unconstrained.}
 % \label{fig:with_cosmo_flat}
 % \end{figure*}
 
 %  \begin{figure*}
 % \centering
-% \includegraphics[width=\linewidth]{figures/with_cosmo_cov_triangle.pdf} 
+% \includegraphics[width=\linewidth]{with_cosmo_cov_triangle.pdf} 
 % \caption[Marginalised joint-posteriors for a run with cosmology free to vary with covariant normal priors]{Marginalised joint-posteriors for a run with cosmology free to vary with covariant normal priors. The plot is otherwise precisely the same as figure \ref{fig:with_cosmo_flat}. Cosmological parameters are relatively unchanged, but HOD parameters have looser constraints than when cosmology is fixed.}
 % \label{fig:with_cosmo_cov}
 % \end{figure*}
@@ -2490,7 +2490,7 @@ In most cases, the necessary modifications to the example code presented here wi
 
 %  \begin{figure}
 % \centering
-% \includegraphics[width=\linewidth]{figures/with_nuisance_triangle.pdf} 
+% \includegraphics[width=\linewidth]{with_nuisance_triangle.pdf} 
 % \caption[Marginalised joint-posteriors for the HOD parameters with the inclusion of both covariant cosmology and nuisance parameters from the HMF, bias and concentration]{Marginalised joint-posteriors for the HOD parameters with the inclusion of both covariant cosmology and nuisance parameters from the HMF, bias and concentration. Blue curves show the distributions derived in the case with covariant cosmology only.}
 % \label{fig:nuisance}
 % \end{figure}
