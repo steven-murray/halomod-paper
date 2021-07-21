@@ -1,0 +1,8 @@
+Steven Murray: Conceptualization, Methodology, Sofrware, Writing - Original Draft, Writing - Review $ Editing, Visualization, Supervision, Project administration. 
+Benedikt Diemer: Software, Writing - Review & Editing, Methodology
+Zhaoting Chen: Software, Writing - Review & Editing
+Anton Neuhold: Software
+Tia Peruzzi: Software
+Trent Engelman: Software
+Daniel Blevins: Software
+Alexander Schnapp: Software
